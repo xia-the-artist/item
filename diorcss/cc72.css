@@ -1,0 +1,93 @@
+.page-title {
+    text-align: center;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.checkbox label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.checkbox-input {
+    position: absolute;
+    width: 1.375rem;
+    height: 1.375rem;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.checkbox-input:focus.focus-visible {
+    outline: 0.3125rem auto #3b99fc !important;
+    outline-offset: -0.125rem;
+}
+
+.checkbox .box {
+    flex-shrink: 0;
+    position: relative;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.9375rem;
+    border: 0.0625rem solid #cecece;
+    border-radius: 0.3125rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox .icon svg {
+    width: 1rem;
+    height: 1.1rem;
+}
+
+.checkbox .error-text {
+    margin-top: 0.1875rem;
+    text-align: right;
+    font-size: 0.8125rem;
+    line-height: 0.8125rem;
+    min-height: 0.8125rem;
+    color: #d70000;
+}
+
+.checkbox.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+    cursor: auto;
+}

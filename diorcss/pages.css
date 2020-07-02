@@ -1,0 +1,1589 @@
+/*
+ * Return the rem of a pixel's value
+ *
+ * Sample: pxToRem(50)
+ * Result: 3.125rem
+ */
+
+
+/*
+ * Return the percent ratio from width and height
+ *
+ * Sample: ratio(16, 9)
+ * Result: 56.25%
+ */
+
+
+/*
+ * Return the rem of a pixel's value
+ *
+ * Sample: pxToRem(50)
+ * Result: 3.125rem
+ */
+
+
+/*
+ * Return the percent ratio from width and height
+ *
+ * Sample: ratio(16, 9)
+ * Result: 56.25%
+ */
+
+.up-down-chevron-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.up-down-chevron-icon svg {
+    width: 1.25rem;
+    overflow: visible;
+}
+
+.up-down-chevron-icon--is-open>svg {
+    transform: rotate(180deg);
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.arrow-icon {
+    display: inline-flex;
+    font-size: 0.75rem;
+    cursor: pointer;
+    padding-top: 0.3125rem;
+}
+
+.arrow-icon svg {
+    width: 1.25rem;
+    height: 1.875rem;
+}
+
+.arrow-icon--top {
+    height: 1.875rem;
+}
+
+.arrow-icon--top .icon {
+    transform: rotate(180deg);
+}
+
+.arrow-icon--bottom {
+    height: 1.875rem;
+}
+
+.arrow-icon--right {
+    padding-right: 0.3125rem;
+}
+
+.arrow-icon--right .icon {
+    transform: rotate(-90deg);
+}
+
+.arrow-icon--left {
+    padding-left: 0.3125rem;
+}
+
+.arrow-icon--left .icon {
+    transform: rotate(90deg);
+}
+
+.arrow-icon:disabled {
+    opacity: 0.2;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.basket-error-box__message {
+    margin-left: 2.1875rem;
+    margin-bottom: 0.375rem;
+    font-size: 0.9375rem;
+}
+
+.basket-error-box__message:last-child {
+    margin-bottom: 0;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.apple-pay-error {
+    text-align: center;
+    color: #d70000;
+    font-size: 0.8125rem;
+    margin-bottom: 0.625rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.apple-pay-button {
+    --apple-pay-scale: 1;
+    /* (height / 32) */
+    display: inline-flex;
+    justify-content: center;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 12.5rem;
+    height: 3rem;
+}
+
+.apple-pay-button__text {
+    font-family: -apple-system;
+    font-size: calc(1em * var(--apple-pay-scale));
+    font-weight: 300;
+    align-self: center;
+    margin-right: calc(0.125rem * var(--apple-pay-scale));
+}
+
+.apple-pay-button__logo {
+    width: calc(3rem * var(--apple-pay-scale));
+    height: calc(calc(3rem * var(--apple-pay-scale)) * 0.75);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    margin-left: calc(0.125rem * var(--apple-pay-scale));
+    border: none;
+}
+
+.apple-pay-button--black {
+    background-color: black;
+    color: white;
+}
+
+.apple-pay-button--black .apple-pay-button__logo {
+    background-image: -webkit-named-image(apple-pay-logo-white);
+    background-color: black;
+}
+
+.apple-pay-button--white {
+    background-color: white;
+    color: black;
+}
+
+.apple-pay-button--white--with-line {
+    border: 0.03125rem solid black;
+}
+
+.apple-pay-button--white .apple-pay-button__logo {
+    background-image: -webkit-named-image(apple-pay-logo-black);
+    background-color: white;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.checkout-wrapper {
+    display: inline-block;
+}
+
+.checkout-wrapper .apple-pay-button {
+    margin-bottom: 0.625rem;
+    width: 100%;
+}
+
+.checkout-wrapper .checkout-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions {
+    display: block;
+    font-size: 0.8125rem;
+    line-height: 1.38;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.terms-and-conditions>a {
+    text-decoration: underline;
+}
+
+.terms-and-conditions>a:hover {
+    font-weight: bold;
+}
+
+.price-line {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.price-line .capacity {
+    white-space: pre;
+}
+
+.price-line .capacity:before {
+    content: ' - ';
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.toggle-wishlist {
+    background: transparent;
+    border: 0;
+    z-index: 1;
+}
+
+.toggle-wishlist .icon {
+    display: flex;
+}
+
+.toggle-wishlist svg {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-engraving {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product-engraving-preview {
+    flex: 1;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.product-engraving-preview__icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.product-engraving-preview__text {
+    margin-top: 0.5625rem;
+    font-size: 0.8125rem;
+}
+
+.product-engraving-legend {
+    margin-left: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.product-engraving-legend-informations {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-engraving-legend-informations__price {
+    margin-top: 0.375rem;
+    font-size: 0.9375rem;
+    font-family: "Century Gothic Std Bold";
+}
+
+.product-engraving-legend__actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.625rem;
+    width: 100%;
+    line-height: 1.25rem;
+}
+
+.product-engraving-legend__actions li+li {
+    height: 100%;
+    padding-left: 3.125rem;
+    margin-left: 1.5625rem;
+    border-left: 0.0625rem solid #e5e5e5;
+}
+
+.product-engraving-legend__actions button {
+    font-size: 0.9375rem;
+    text-decoration: underline;
+}
+
+.product-engraving-legend__actions button:hover {
+    font-weight: bold;
+}
+
+.product-engraving-information-box {
+    width: 100%;
+    margin-top: 0.3125rem;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .product-engraving-preview {
+        flex: 1;
+        height: 6.0625rem;
+    }
+    .product-engraving-legend {
+        margin-left: 0.625rem;
+    }
+    .product-engraving-legend-informations__price {
+        margin-top: 0.5rem;
+    }
+    .product-engraving-legend__actions {
+        margin-top: 0.5rem;
+        display: block;
+    }
+    .product-engraving-legend__actions li+li {
+        padding-left: 0;
+        margin-left: 0;
+        line-height: 1.5rem;
+        border-left: none;
+    }
+    .product-engraving-information-box {
+        margin: 0.3125rem 1.25rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.engraving-error {
+    max-width: 28.125rem;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+}
+
+.engraving-error-title {
+    text-align: center;
+    margin-bottom: 0.625rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.engraving {
+    max-width: 28.125rem;
+    text-align: center;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+}
+
+.engraving-title {
+    margin: 0 auto 0.375rem;
+    width: 90%;
+}
+
+.engraving-price {
+    font-family: "Century Gothic Std Bold";
+}
+
+.engraving-max-characters,
+.engraving-text {
+    font-size: 0.8125rem;
+    color: #757575;
+}
+
+.engraving-max-characters {
+    width: 20.9375rem;
+    max-width: 100%;
+    text-align: right;
+    margin: 0 auto 0.875rem;
+}
+
+.engraving-text {
+    margin-top: 0.875rem;
+}
+
+.engraving .image img {
+    max-width: 100%;
+}
+
+.engraving-input-description,
+.engraving .text-input {
+    width: 20.9375rem;
+    max-width: 100%;
+    text-align: left;
+    margin: 0.625rem auto 0;
+}
+
+.engraving-input-description {
+    margin: 0.625rem auto 0;
+}
+
+.engraving .text-input {
+    margin-top: 0.9375rem;
+}
+
+.engraving .button-link {
+    min-width: 14.75rem;
+    margin-bottom: 0.875rem;
+}
+
+.engraving__loader {
+    margin: auto;
+    width: 21.875rem;
+}
+
+.engraving__cancel {
+    display: block;
+    margin: 0 auto 1.25rem;
+    text-decoration: underline;
+}
+
+.engraving__cancel:hover {
+    font-weight: bold;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.remove-engraving {
+    display: flex;
+    flex-direction: column;
+    width: 42.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.1875rem;
+}
+
+.remove-engraving__title {
+    margin-bottom: 0.625rem;
+}
+
+.remove-engraving__description {
+    line-height: 1.5rem;
+}
+
+.remove-engraving__button {
+    margin: 1.25rem 0;
+}
+
+.remove-engraving__cancel {
+    text-decoration: underline;
+}
+
+.remove-engraving__cancel:hover {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .remove-engraving {
+        width: auto;
+        padding: 0 1.3125rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.confirm-engraving {
+    display: flex;
+    flex-direction: column;
+    width: 42.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.1875rem;
+}
+
+.confirm-engraving__title {
+    margin-bottom: 0.625rem;
+}
+
+.confirm-engraving__description {
+    line-height: 1.5rem;
+}
+
+.confirm-engraving__button {
+    margin: 1.25rem 0;
+}
+
+.confirm-engraving__back-to-shopping-link__text {
+    text-decoration: underline;
+}
+
+.confirm-engraving__back-to-shopping-link__text:hover {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .confirm-engraving {
+        width: auto;
+        padding: 0 1.3125rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.text-field {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.text-field .input {
+    display: inline-flex;
+    align-items: center;
+    height: 3.0625rem;
+    padding: 0.5rem 1.25rem;
+    box-sizing: border-box;
+    border: 0.0625rem solid #cecece;
+    background-color: white;
+    border-radius: 0.3125rem;
+}
+
+.text-field .input .icon {
+    margin-right: 0.5rem;
+}
+
+.text-field .input .icon svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.text-field .input .icon.text-field__validation-tick {
+    position: absolute;
+    top: 0.9375rem;
+    right: 0.8125rem;
+    z-index: 1;
+}
+
+.text-field .input .icon.text-field__validation-tick svg {
+    width: 0.8125rem;
+    height: 0.5625rem;
+}
+
+.text-field .input:focus-within {
+    box-shadow: 0 0 0.0625rem 0.0625rem #757575 inset;
+}
+
+.text-field .input textarea,
+.text-field .input input {
+    border: 0;
+    font-size: 0.9375rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+    outline: none;
+}
+
+.text-field .input textarea {
+    height: 90%;
+    align-self: flex-end;
+    overflow: auto;
+    resize: none;
+}
+
+.text-field.has-error .input {
+    border: 0.0625rem solid #d70000;
+}
+
+.text-field--black-bordered .input {
+    border-color: #000000;
+}
+
+.text-field.placeholder-with-label .input textarea::-webkit-input-placeholder,
+.text-field.placeholder-with-label .input input::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.text-field.placeholder-with-label .input textarea::-moz-placeholder,
+.text-field.placeholder-with-label .input input::-moz-placeholder {
+    opacity: 0;
+}
+
+.text-field.placeholder-with-label .input textarea:-ms-input-placeholder,
+.text-field.placeholder-with-label .input input:-ms-input-placeholder {
+    opacity: 0;
+}
+
+.text-field.placeholder-with-label .input textarea::-ms-input-placeholder,
+.text-field.placeholder-with-label .input input::-ms-input-placeholder {
+    opacity: 0;
+}
+
+.text-field.placeholder-with-label .input textarea::placeholder,
+.text-field.placeholder-with-label .input input::placeholder {
+    opacity: 0;
+}
+
+.text-field.placeholder-with-label .input textarea::-webkit-input-placeholder,
+.text-field.placeholder-with-label .input input.focus-visible::-webkit-input-placeholder {
+    opacity: 1;
+    background-color: transparent;
+    font-size: 0.8125rem;
+}
+
+.text-field.placeholder-with-label .input textarea::-moz-placeholder,
+.text-field.placeholder-with-label .input input.focus-visible::-moz-placeholder {
+    opacity: 1;
+    background-color: transparent;
+    font-size: 0.8125rem;
+}
+
+.text-field.placeholder-with-label .input textarea:-ms-input-placeholder,
+.text-field.placeholder-with-label .input input.focus-visible:-ms-input-placeholder {
+    opacity: 1;
+    background-color: transparent;
+    font-size: 0.8125rem;
+}
+
+.text-field.placeholder-with-label .input textarea::-ms-input-placeholder,
+.text-field.placeholder-with-label .input input.focus-visible::-ms-input-placeholder {
+    opacity: 1;
+    background-color: transparent;
+    font-size: 0.8125rem;
+}
+
+.text-field.placeholder-with-label .input textarea::placeholder,
+.text-field.placeholder-with-label .input input.focus-visible::placeholder {
+    opacity: 1;
+    background-color: transparent;
+    font-size: 0.8125rem;
+}
+
+.text-field .error-text {
+    margin-top: 0.1875rem;
+    text-align: right;
+    font-size: 0.8125rem;
+    line-height: 0.8125rem;
+    min-height: 0.8125rem;
+    color: #d70000;
+}
+
+.text-field.floating-label .input {
+    padding: 0;
+}
+
+.text-field.floating-label label {
+    position: absolute;
+    left: 1.25rem;
+    top: 1.125rem;
+    transition: font-size 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, top 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    color: #757575;
+    font-size: 0.8125rem;
+    max-width: calc( 100% - 2.5rem);
+    text-overflow: ellipsis;
+    height: 0.9375rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.text-field.floating-label input {
+    margin-left: 0;
+    height: 100%;
+    padding: 1rem 1.25rem 0 0.9375rem;
+}
+
+.text-field.floating-label .input:focus-within {
+    box-shadow: 0 0 0.0625rem 0.0625rem #757575 inset;
+    padding: 0;
+}
+
+.text-field.floating-label .input:focus-within~label {
+    font-size: 0.6875rem;
+    top: 0.625rem;
+}
+
+.text-field.floating-label.has-value label,
+.text-field.floating-label.date-field label {
+    font-size: 0.6875rem;
+    top: 0.625rem;
+}
+
+.text-field.floating-label.has-value .input,
+.text-field.floating-label.date-field .input {
+    padding: 0;
+}
+
+@supports (-ms-ime-align: auto) {
+    .text-field.floating-label {
+        /* EDGE CSS styles go here */
+    }
+    .text-field.floating-label.placeholder-with-label input::-ms-input-placeholder {
+        opacity: 1;
+    }
+    .text-field.floating-label.placeholder-with-label input.focus-visible::-ms-input-placeholder {
+        opacity: 0;
+    }
+    .text-field.floating-label label {
+        top: 0.625rem;
+        font-size: 0.6875rem;
+    }
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .text-field.floating-label {
+        /* IE10+ CSS styles go here */
+    }
+    .text-field.floating-label.placeholder-with-label input::-ms-input-placeholder {
+        opacity: 1;
+    }
+    .text-field.floating-label.placeholder-with-label input.focus-visible::-ms-input-placeholder {
+        opacity: 0;
+    }
+    .text-field.floating-label label {
+        top: 0.625rem;
+        font-size: 0.6875rem;
+    }
+}
+
+.text-field.floating-label.has-error label {
+    color: #d70000;
+}
+
+.text-field.disabled {
+    color: #757575;
+}
+
+.text-field.disabled .input {
+    background-color: #f6f6f6;
+}
+
+.text-field.disabled .input input {
+    background-color: #f6f6f6;
+    color: #757575;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+/* Slider */
+
+
+/* Slide */
+
+.slick-slide {
+    box-sizing: border-box;
+    display: block;
+}
+
+.slick-slide>div {
+    height: 100%;
+}
+
+.slick-slide>div>.slide-content {
+    height: 100%;
+    display: block !important;
+}
+
+.slick-slide img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+
+/* Dots */
+
+.slick-dots {
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 0.8125rem;
+    height: 0.8125rem;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    background: transparent;
+}
+
+.slick-dots li button:before {
+    line-height: 0.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0.375rem;
+    height: 0.375rem;
+    content: ' ';
+    border-radius: 50%;
+    transition: background-color 1s ease-in-out;
+}
+
+.slick-dots li.slick-active button:before {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.slick-dots li.slick-active:first-child:last-child {
+    display: none;
+}
+
+
+/* Override Default Slider Styles */
+
+.slider.slider--no-wrap {
+    margin: 0;
+}
+
+.slider.slider--wrapped .slick-slider {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.slider.slider--wrapped .slick-list {
+    overflow: visible;
+}
+
+.slider.slider--wrapped-left .slick-slider {
+    margin-right: 2.5rem;
+}
+
+.slider.slider--wrapped-left .slick-list {
+    overflow: visible;
+}
+
+.slider.slider--wrapped-left .slick-slide {
+    padding: 0 0.625rem 0 0;
+}
+
+.slider.slider--wrapped-left .slick-dots {
+    left: 1.25rem;
+}
+
+.slider.slider--wrapped-left-big .slick-slider {
+    margin-right: 7.5rem;
+}
+
+.slider.slider--wrapped-left-big .slick-list {
+    overflow: visible;
+}
+
+.slider.slider--wrapped-left-big .slick-slide {
+    padding: 0 1.25rem 0 0;
+}
+
+.slider.slider--wrapped-left-big .slick-dots {
+    width: 100%;
+    left: calc(7.5rem / 2);
+}
+
+.slider.slider--wrapped-left-bigger .slick-slider {
+    margin-right: 20rem;
+}
+
+.slider.slider--wrapped-left-bigger .slick-list {
+    overflow: visible;
+}
+
+.slider.slider--wrapped-left-bigger .slick-slide {
+    padding: 0 0.9375rem;
+}
+
+.slider.slider--wrapped-left-bigger .slick-dots {
+    width: 100%;
+    left: calc(20rem / 2);
+    bottom: -2.5rem;
+}
+
+.slider.slider--wrapped-left-bigger .arrow-icon {
+    position: absolute;
+    z-index: 1;
+    bottom: -3.125rem;
+    font-size: 0.3125rem;
+}
+
+.slider.slider--wrapped-left-bigger .arrow-icon .icon {
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider.slider--wrapped-left-bigger .arrow-icon .icon:hover {
+    font-weight: 900;
+}
+
+.slider.slider--wrapped-left-bigger .arrow-icon--right {
+    right: calc(50% - 20rem + 4.5rem);
+}
+
+.slider.slider--wrapped-left-bigger .arrow-icon--left {
+    left: calc(50% + 4.5rem);
+}
+
+.slider .slick-bottom {
+    position: relative;
+    margin-top: 1.5625rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.slider .slick-play-pause-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: inherit;
+    font: inherit;
+    color: inherit;
+    text-decoration: none;
+    padding: 0;
+    margin-left: 0.625rem;
+}
+
+.slider .slick-play-pause-button svg {
+    width: 0.625rem;
+    height: 0.625rem;
+    margin-bottom: 0.0625rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.added-to-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 3rem;
+    min-height: 11.75rem;
+}
+
+.added-to-cart-title {
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 0.0625rem solid #e5e5e5;
+}
+
+.added-to-cart-title-placeholder {
+    background-clip: content-box;
+    height: 1.1875rem !important;
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 0.0625rem solid #e5e5e5;
+    margin-top: 0 !important;
+    width: 20.625rem !important;
+}
+
+.added-to-cart-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.added-to-cart-basket-link {
+    text-decoration: underline;
+    margin-top: 0.9375rem;
+    align-self: center;
+}
+
+.added-to-cart .button-link {
+    display: flex;
+    margin: 0.5rem 0;
+    line-height: 1;
+}
+
+.added-to-cart__loader {
+    margin: auto;
+}
+
+.added-to-cart .basket-error-box {
+    margin-bottom: 1.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.add-to-cart-button.button-link {
+    border-radius: 3.75rem !important;
+    text-transform: uppercase;
+    font-size: 0.9375rem;
+}
+
+.add-to-cart-button.button-link .button-link-content .icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0;
+}
+
+.add-to-cart-button.button-link .icon+.button-link__title {
+    margin-left: 0.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.generic-variations-slider .slider {
+    overflow: visible;
+}
+
+.generic-variations-slider .slide-content {
+    text-align: center;
+}
+
+.generic-variations-slider .slick-bottom {
+    margin-top: 0;
+}
+
+.generic-variations-slider .arrow-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top: 0;
+    z-index: 1;
+}
+
+.generic-variations-slider .arrow-icon svg {
+    width: 0.9375rem;
+    height: 1.25rem;
+}
+
+.generic-variations-slider .arrow-icon.slick-disabled {
+    display: none;
+}
+
+.generic-variations-slider .arrow-icon--left {
+    left: -1rem;
+}
+
+.generic-variations-slider .arrow-icon--right {
+    right: -1rem;
+}
+
+.generic-variations-slider .slick-bottom {
+    margin-top: 0;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.size {
+    display: inline-flex;
+    box-sizing: border-box;
+    width: 3.375rem;
+    height: 3.375rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.size input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.size input:enabled {
+    cursor: pointer;
+}
+
+.size.is-selected {
+    border: 0.0625rem solid black;
+}
+
+.size.is-available {
+    cursor: pointer;
+    color: black;
+}
+
+.size.is-available label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.size:not(.is-available) label {
+    text-decoration: line-through;
+}
+
+.size svg {
+    width: 0.8125rem;
+    height: 0.5625rem;
+    margin-left: 0.3125rem;
+}

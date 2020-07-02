@@ -1,0 +1,266 @@
+.customer-account-login .col2-set p.dior-title,
+.checkout-onepage-index .col2-set p.dior-title {
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    position: relative;
+}
+
+.customer-account-login .col2-set p.dior-title .tab-login,
+.checkout-onepage-index .col2-set p.dior-title .tab-login {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.customer-account-login .col2-set .register-message-box ul.messages,
+.checkout-onepage-index .col2-set .register-message-box ul.messages {
+    margin-top: 10px;
+}
+
+.customer-account-login .col2-set .col-2.registered-users,
+.checkout-onepage-index .col2-set .col-2.registered-users {
+    height: 422px;
+    padding: 60px 40px 60px 30px;
+}
+
+.customer-account-login .col2-set .col-2.registered-users.registered-users-login,
+.checkout-onepage-index .col2-set .col-2.registered-users.registered-users-login {
+    height: 308px;
+}
+
+.customer-account-login .col2-set .col-2.registered-users.registered-users-login .account-login-block,
+.checkout-onepage-index .col2-set .col-2.registered-users.registered-users-login .account-login-block {
+    display: block;
+}
+
+.customer-account-login .col2-set .col-2.registered-users.registered-users-login .quick-login-block,
+.checkout-onepage-index .col2-set .col-2.registered-users.registered-users-login .quick-login-block {
+    display: none;
+}
+
+.customer-account-login .col2-set .col-1.new-users,
+.checkout-onepage-index .col2-set .col-1.new-users {
+    padding: 60px 50px;
+}
+
+.customer-account-login .col2-set .col-1.new-users p.form-instructions,
+.checkout-onepage-index .col2-set .col-1.new-users p.form-instructions {
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+.customer-account-login .col2-set .buttons-set .button,
+.checkout-onepage-index .col2-set .buttons-set .button {
+    margin-top: 50px;
+    width: 100%;
+    background: #fff !important;
+    border: 1px solid #000;
+    color: #000 !important;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.customer-account-login .col2-set .buttons-set .button.disable,
+.checkout-onepage-index .col2-set .buttons-set .button.disable {
+    background: #999 !important;
+}
+
+.customer-account-login .col2-set .registered-users .login-form-list li,
+.checkout-onepage-index .col2-set .registered-users .login-form-list li {
+    clear: both;
+    overflow: hidden;
+}
+
+.customer-account-login .col2-set .registered-users .login-form-list li label,
+.customer-account-login .col2-set .registered-users .login-form-list li .input-box,
+.checkout-onepage-index .col2-set .registered-users .login-form-list li label,
+.checkout-onepage-index .col2-set .registered-users .login-form-list li .input-box {
+    float: left;
+}
+
+.customer-account-login .col2-set .registered-users .login-form-list li .input-box,
+.checkout-onepage-index .col2-set .registered-users .login-form-list li .input-box {
+    width: 180px;
+}
+
+.customer-account-login .col2-set .registered-users .login-form-list li .input-box input,
+.checkout-onepage-index .col2-set .registered-users .login-form-list li .input-box input {
+    width: 100%;
+    background: #ebebeb !important;
+    border: 1px solid #ebebeb !important;
+}
+
+.customer-account-login .col2-set .registered-users .login-form-list li.login-btn-block>a,
+.checkout-onepage-index .col2-set .registered-users .login-form-list li.login-btn-block>a {
+    float: left;
+}
+
+.customer-account-login .col2-set .registered-users .login-form-list li.login-btn-block .input-box,
+.checkout-onepage-index .col2-set .registered-users .login-form-list li.login-btn-block .input-box {
+    text-align: right;
+    height: auto;
+    width: auto;
+}
+
+.customer-account-login .col2-set .account-login-block,
+.checkout-onepage-index .col2-set .account-login-block {
+    margin-top: 20px;
+    display: none;
+}
+
+.customer-account-login .col2-set .quick-login-block .form-list,
+.checkout-onepage-index .col2-set .quick-login-block .form-list {
+    margin: auto;
+}
+
+.customer-account-login .col2-set .quick-login-block .form-list .input-box,
+.checkout-onepage-index .col2-set .quick-login-block .form-list .input-box {
+    width: 100%;
+}
+
+.customer-account-login .col2-set .quick-login-block .form-list .input-box input,
+.checkout-onepage-index .col2-set .quick-login-block .form-list .input-box input {
+    width: 100%;
+}
+
+.customer-account-login .col2-set .quick-login-block .form-list #captcha-input-box-user_login label,
+.checkout-onepage-index .col2-set .quick-login-block .form-list #captcha-input-box-user_login label {
+    display: none;
+}
+
+.customer-account-login .col2-set .quick-login-block .form-list #captcha-input-box-user_login #captcha_user_login,
+.checkout-onepage-index .col2-set .quick-login-block .form-list #captcha-input-box-user_login #captcha_user_login {
+    width: 150px !important;
+}
+
+.customer-account-login .col2-set .quick-login-block .form-list #captcha-input-box-user_login #user_login,
+.checkout-onepage-index .col2-set .quick-login-block .form-list #captcha-input-box-user_login #user_login {
+    width: 80px !important;
+    height: 30px !important;
+}
+
+.customer-account-login .col2-set .quick-login-block .form-list .verifyCode .verify_phone_box,
+.checkout-onepage-index .col2-set .quick-login-block .form-list .verifyCode .verify_phone_box {
+    float: left;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.customer-account-login .col2-set .quick-login-block .form-list .verifyCode #quick_verify_send_btn,
+.checkout-onepage-index .col2-set .quick-login-block .form-list .verifyCode #quick_verify_send_btn {
+    float: right;
+    width: 80px;
+    border: none;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    border-radius: 15px !important;
+}
+
+.customer-account-login .col2-set .quick-login-block .form-list .verifyCode #quick_verify_send_btn.disable,
+.checkout-onepage-index .col2-set .quick-login-block .form-list .verifyCode #quick_verify_send_btn.disable {
+    background: #999;
+    cursor: default;
+}
+
+.customer-account-login .col2-set .quick-login-block .form-list .button,
+.checkout-onepage-index .col2-set .quick-login-block .form-list .button {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.customer-account-login .col2-set .quick-login-block .form-list .quick-checkbox,
+.checkout-onepage-index .col2-set .quick-login-block .form-list .quick-checkbox {
+    height: 37px !important;
+    position: relative;
+}
+
+.customer-account-login .col2-set .quick-login-block .form-list .quick-checkbox #advice-validate-agree-statement-checkbox-quick,
+.checkout-onepage-index .col2-set .quick-login-block .form-list .quick-checkbox #advice-validate-agree-statement-checkbox-quick {
+    position: absolute;
+    top: 13px;
+}
+
+.customer-account-login .col2-set .quick-login-block .jqTransformCheckboxWrapper,
+.checkout-onepage-index .col2-set .quick-login-block .jqTransformCheckboxWrapper {
+    margin-top: 0;
+}
+
+.checkout-onepage-index #checkout-step-login .col2-set {
+    margin-bottom: 50px;
+}
+
+.checkout-onepage-index #checkout-step-login .col2-set .register-message-box ul.messages {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.checkout-onepage-index #checkout-step-login .col2-set .col-1 .quick-login-block {
+    margin-top: 20px;
+}
+
+.checkout-onepage-index #checkout-step-login .col2-set .col-1 .quick-login-block #quick-login-content ul li {
+    height: 55px;
+}
+
+.checkout-onepage-index #checkout-step-login .col2-set .col-2 {
+    position: relative;
+    height: auto;
+}
+
+.checkout-onepage-index #checkout-step-login .col2-set .col-2:before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 150px;
+    background: #ccc;
+    top: 10%;
+    left: -24%;
+}
+
+.checkout-onepage-index #checkout-step-login .col2-set .col-2 .account-login-block {
+    display: block;
+}
+
+.checkout-onepage-index .col2-set .col-2.registered-users {
+    padding: 0;
+}
+
+.checkout-onepage-index .col2-set .col-2.registered-users .validation-failed {
+    border: 1px solid #df280a !important;
+}
+
+.checkout-onepage-index .col2-set .col-2.registered-users .quick-login-block {
+    margin-top: 14px;
+}
+
+.checkout-onepage-index .col2-set .col-2.registered-users .quick-login-block ul li {
+    height: 55px;
+}
+
+.checkout-onepage-index .col2-set .col-2.registered-users #login-form a.forgot-password {
+    color: #666;
+    font-size: 14px;
+    text-decoration: underline;
+    line-height: 32px;
+}
+
+.checkout-onepage-index .col2-set .col-2.registered-users #login-form .buttons-set {
+    padding-top: 0;
+    float: right;
+}
+
+.checkout-onepage-index .col2-set .col-2.registered-users #login-form .buttons-set button {
+    margin-top: 0;
+    background: #000 !important;
+    color: #fff !important;
+    position: static;
+}
+
+
+/*# sourceMappingURL=customer-login.css.map */

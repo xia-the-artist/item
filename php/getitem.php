@@ -2,7 +2,7 @@
     include('./conn.php');
 
     $id = $_REQUEST['id'];
-
+    //    echo $id;
     $sql = "select * from shopping where id='$id'";
 
     $res = $mysqli->query($sql);
@@ -15,3 +15,5 @@
 
     $mysqli->close();
 ?>
+
+

@@ -1,4 +1,4 @@
-let baseUrl = "http://localhost/JS2002/day35";
+let baseUrl = "http://localhost/JS2002/xmdior/dior";
 
 define(['jquery', 'cookie'], function($, cookie) {
     return {
@@ -7,20 +7,23 @@ define(['jquery', 'cookie'], function($, cookie) {
 
             if (shop) {
                 shop = JSON.parse(shop);
+
                 let idlist = shop.map(elm => elm.id).join();
+                console.log(shop);
                 $.ajax({
                     type: "get",
-                    url: `${baseUrl}/interface/shop.php`,
+                    url: `${baseUrl}/php/shop.php`,
                     data: {
                         idlist: idlist
                     },
                     dataType: "json",
                     success: function(res) {
-                        console.log(res);
+                        // console.log(res);
                         let tempstr = '';
 
                         res.forEach(elm => {
                             let pic = JSON.parse(elm.pic);
+                            console.log(pic);
 
                             // cookie中获取 于当前从数据库中遍历出的相同元素
                             let arr = shop.filter(val => val.id == elm.id);
@@ -33,7 +36,7 @@ define(['jquery', 'cookie'], function($, cookie) {
                                     <input type="checkbox" id="p1">
                                 </div>
                                 <div class="p-pic">
-                                    <img src="${baseUrl}/src/${pic[0].src}" alt="${pic[0].title}">
+                                    <img src="${baseUrl}/${pic[0].src}" alt="${pic[0].title}">
                                 </div>
                                 <div class="p-title">
                                     ${elm.title}

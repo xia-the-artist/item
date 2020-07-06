@@ -1,0 +1,10466 @@
+/*
+ * Return the rem of a pixel's value
+ *
+ * Sample: pxToRem(50)
+ * Result: 3.125rem
+ */
+
+
+/*
+ * Return the percent ratio from width and height
+ *
+ * Sample: ratio(16, 9)
+ * Result: 56.25%
+ */
+
+
+/*
+ * Return the rem of a pixel's value
+ *
+ * Sample: pxToRem(50)
+ * Result: 3.125rem
+ */
+
+
+/*
+ * Return the percent ratio from width and height
+ *
+ * Sample: ratio(16, 9)
+ * Result: 56.25%
+ */
+
+.breadcrumb ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    cursor: default;
+}
+
+.breadcrumb-separator {
+    margin: 0 0.625rem;
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .breadcrumb {
+        position: absolute !important;
+        visibility: hidden !important;
+        margin: 0 1.25rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.recently-viewed-products .arrow-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.625rem;
+    padding-top: 0;
+    z-index: 1;
+}
+
+.recently-viewed-products .arrow-icon--left {
+    left: -1rem;
+}
+
+.recently-viewed-products .arrow-icon--right {
+    right: -1rem;
+}
+
+.recently-viewed-products .arrow-icon.slick-disabled {
+    display: none;
+}
+
+.recently-viewed-products .title-with-level {
+    text-align: center;
+    margin-bottom: 1.875rem;
+}
+
+.recently-viewed-products .slick-track {
+    margin-left: 0;
+}
+
+.recently-viewed-products .slick-slide {
+    padding: 0 1.25rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .recently-viewed-products .slick-slide {
+        padding: 0 0.625rem;
+    }
+    .recently-viewed-products .slider.slider--wrapped .slick-slider {
+        padding-left: 3.5% !important;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.arrow-icon {
+    display: inline-flex;
+    font-size: 0.75rem;
+    cursor: pointer;
+    padding-top: 0.3125rem;
+}
+
+.arrow-icon svg {
+    width: 1.25rem;
+    height: 1.875rem;
+}
+
+.arrow-icon--top {
+    height: 1.875rem;
+}
+
+.arrow-icon--top .icon {
+    transform: rotate(180deg);
+}
+
+.arrow-icon--bottom {
+    height: 1.875rem;
+}
+
+.arrow-icon--right {
+    padding-right: 0.3125rem;
+}
+
+.arrow-icon--right .icon {
+    transform: rotate(-90deg);
+}
+
+.arrow-icon--left {
+    padding-left: 0.3125rem;
+}
+
+.arrow-icon--left .icon {
+    transform: rotate(90deg);
+}
+
+.arrow-icon:disabled {
+    opacity: 0.2;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+/* Slider */
+
+
+/* Slide */
+
+.slick-slide {
+    box-sizing: border-box;
+    display: block;
+}
+
+.slick-slide>div {
+    height: 100%;
+}
+
+.slick-slide>div>.slide-content {
+    height: 100%;
+    display: block !important;
+}
+
+.slick-slide img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+
+/* Dots */
+
+.slick-dots {
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 0.8125rem;
+    height: 0.8125rem;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    background: transparent;
+}
+
+.slick-dots li button:before {
+    line-height: 0.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0.375rem;
+    height: 0.375rem;
+    content: ' ';
+    border-radius: 50%;
+    transition: background-color 1s ease-in-out;
+}
+
+.slick-dots li.slick-active button:before {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.slick-dots li.slick-active:first-child:last-child {
+    display: none;
+}
+
+
+/* Override Default Slider Styles */
+
+.slider.slider--no-wrap {
+    margin: 0;
+}
+
+.slider.slider--wrapped .slick-slider {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.slider.slider--wrapped .slick-list {
+    overflow: visible;
+}
+
+.slider.slider--wrapped-left .slick-slider {
+    margin-right: 2.5rem;
+}
+
+.slider.slider--wrapped-left .slick-list {
+    overflow: visible;
+}
+
+.slider.slider--wrapped-left .slick-slide {
+    padding: 0 0.625rem 0 0;
+}
+
+.slider.slider--wrapped-left .slick-dots {
+    left: 1.25rem;
+}
+
+.slider.slider--wrapped-left-big .slick-slider {
+    margin-right: 7.5rem;
+}
+
+.slider.slider--wrapped-left-big .slick-list {
+    overflow: visible;
+}
+
+.slider.slider--wrapped-left-big .slick-slide {
+    padding: 0 1.25rem 0 0;
+}
+
+.slider.slider--wrapped-left-big .slick-dots {
+    width: 100%;
+    left: calc(7.5rem / 2);
+}
+
+.slider.slider--wrapped-left-bigger .slick-slider {
+    margin-right: 20rem;
+}
+
+.slider.slider--wrapped-left-bigger .slick-list {
+    overflow: visible;
+}
+
+.slider.slider--wrapped-left-bigger .slick-slide {
+    padding: 0 0.9375rem;
+}
+
+.slider.slider--wrapped-left-bigger .slick-dots {
+    width: 100%;
+    left: calc(20rem / 2);
+    bottom: -2.5rem;
+}
+
+.slider.slider--wrapped-left-bigger .arrow-icon {
+    position: absolute;
+    z-index: 1;
+    bottom: -3.125rem;
+    font-size: 0.3125rem;
+}
+
+.slider.slider--wrapped-left-bigger .arrow-icon .icon {
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider.slider--wrapped-left-bigger .arrow-icon .icon:hover {
+    font-weight: 900;
+}
+
+.slider.slider--wrapped-left-bigger .arrow-icon--right {
+    right: calc(50% - 20rem + 4.5rem);
+}
+
+.slider.slider--wrapped-left-bigger .arrow-icon--left {
+    left: calc(50% + 4.5rem);
+}
+
+.slider .slick-bottom {
+    position: relative;
+    margin-top: 1.5625rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.slider .slick-play-pause-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: inherit;
+    font: inherit;
+    color: inherit;
+    text-decoration: none;
+    padding: 0;
+    margin-left: 0.625rem;
+}
+
+.slider .slick-play-pause-button svg {
+    width: 0.625rem;
+    height: 0.625rem;
+    margin-bottom: 0.0625rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.page-cover {
+    display: flex;
+    flex-direction: column;
+    max-width: 90rem;
+    text-align: center;
+}
+
+.page-cover-surtitle {
+    margin-bottom: 0.625rem;
+}
+
+.page-cover-subtitle {
+    margin-top: 0.3125rem;
+}
+
+.page-cover-surtitle,
+.page-cover-title,
+.page-cover-subtitle {
+    order: 1;
+}
+
+.page-cover.has-title>.image,
+.page-cover.has-title>.player {
+    margin-top: 1.25rem;
+}
+
+.page-cover>.image,
+.page-cover>.player {
+    width: 100%;
+    margin-bottom: 1.25rem;
+    order: 3;
+}
+
+.page-cover-description {
+    text-align: center;
+    font-size: 0.9375rem;
+    margin: 1.25rem 10rem;
+    order: 3;
+}
+
+.page-cover-description.description-first {
+    order: 2;
+    margin-top: 0.625rem;
+}
+
+.page-cover-description p+p {
+    margin-top: 0.75rem;
+}
+
+.page-cover-cta {
+    order: 3;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .page-cover>.image {
+        margin: 1.25rem 0;
+    }
+    .page-cover-description {
+        margin: 0.625rem 1rem;
+        order: 3;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.bottom-content {
+    margin-top: 2.5rem;
+}
+
+.bottom-content>* {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 50rem) {
+    .bottom-content .push-edito-content {
+        width: 66%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bottom-content .push-edito-image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bottom-content .push-edito-image.three-columns {
+        width: 100%;
+    }
+    .bottom-content .push-edito-image.two-columns {
+        width: 66%;
+    }
+    .bottom-content .push-edito-image.one-column {
+        width: 33%;
+    }
+    .bottom-content .grid-view-element .push-edito-content,
+    .bottom-content .grid-view-element .push-edito-image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .bottom-content>* {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .bottom-content .push-edito-content,
+    .bottom-content .push-edito-image {
+        width: calc(100% - 2.5rem);
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+    }
+    .bottom-content .push-edito-content+.push-edito-content {
+        margin-top: 1.25rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.separator {
+    box-sizing: border-box;
+    width: 100%;
+    border-top: 0.0625rem solid #e5e5e5;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .separator {
+        width: calc(100% - 2.5rem);
+        margin: 0 auto;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.slider-images-video-wrapper {
+    text-align: center;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .slider-images-video-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.slider-images-video-wrapper .slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.slider-images-video-wrapper--not-centered .slick-track {
+    align-items: flex-start;
+}
+
+.slider-images-video-wrapper .description {
+    margin: 1.5625rem auto;
+    max-width: 52.5rem;
+}
+
+.slider-images-video-wrapper .slider-images-video {
+    margin: 0 1.875rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .slider-images-video-wrapper .slider-images-video {
+        margin: 0;
+    }
+}
+
+.slider-images-video-wrapper .slider-images-video .slider .slick-slide {
+    padding: 0 0.9375rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .slider-images-video-wrapper .slider-images-video .slider .slick-slide {
+        padding: 0 0.3125rem;
+    }
+}
+
+.slider-images-video-wrapper .slider-images-video .slider .slick-slide .btn-wrapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-images-video-wrapper .slider-images-video .slider .slick-slide img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.slider-images-video-wrapper .slider-images-video .slider .arrow-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.slider-images-video-wrapper .slider-images-video .slider .arrow-icon--right {
+    right: -3.125rem;
+}
+
+.slider-images-video-wrapper .slider-images-video .slider .arrow-icon--left {
+    left: -3.125rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .slider-images-video-wrapper .slider-cta {
+        margin-top: 1.625rem;
+    }
+}
+
+@media screen and (min-width: 50rem) {
+    .slider-images-video-wrapper .slider-cta {
+        margin-top: 2.5rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.slide-image-video {
+    box-sizing: border-box;
+}
+
+.slide-image-video__title {
+    display: inline-block;
+    margin-top: 0.4375rem;
+}
+
+.slide-image-video__image {
+    position: relative;
+}
+
+.slide-image-video__image .play-icon {
+    border: 0.125rem solid #ffffff;
+    border-radius: 50%;
+    width: 3.75rem;
+    height: 3.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.slide-image-video__image .play-icon svg {
+    width: 0.9375rem;
+}
+
+.slide-image-video__image .player {
+    position: relative;
+    top: initial;
+    left: initial;
+    display: block;
+    overflow: initial;
+    padding-bottom: 0;
+}
+
+.slide-image-video__image .player video {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+
+.slide-image-video__image .player .poster {
+    position: relative;
+    z-index: 2;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.video-popin {
+    margin-top: 1rem;
+    width: 73.75rem;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-cross-sells {
+    border-top: 0.0625rem solid #e5e5e5;
+    padding-top: 1.25rem;
+}
+
+.product-cross-sells__title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.product-cross-sells .arrow-icon {
+    position: absolute;
+    top: 40%;
+    font-size: 0.625rem;
+    padding-top: 0;
+    z-index: 1;
+}
+
+.product-cross-sells .arrow-icon--left {
+    left: -1rem;
+}
+
+.product-cross-sells .arrow-icon--right {
+    right: -1rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .product-cross-sells .slick-slider.slick-initialized {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+.product-cross-sells .product {
+    display: block;
+    margin: 0 1rem;
+}
+
+.product-cross-sells .product img {
+    width: 100%;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-cross-sells-look-title {
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.product-cross-sells-look-content {
+    display: flex;
+    font-size: 0.9375rem;
+}
+
+.product-cross-sells-look-description {
+    margin-bottom: 1.25rem;
+}
+
+@media screen and (min-width: 50rem) {
+    .product-cross-sells-look-look,
+    .product-cross-sells-look-image {
+        width: 50% !important;
+        padding: 0 1.25rem;
+        box-sizing: border-box;
+    }
+    .product-cross-sells-look-products {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -1.25rem;
+    }
+    .product-cross-sells-look-products .product {
+        width: 50%;
+        padding: 0 1.25rem;
+        margin-bottom: 1.875rem;
+    }
+    .product-cross-sells-look-products .product .toggle-wishlist {
+        right: 2rem;
+    }
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .product-cross-sells-look-look {
+        margin-top: 1.25rem;
+    }
+    .product-cross-sells-look-content {
+        flex-direction: column;
+    }
+    .product-cross-sells-look-description,
+    .product-cross-sells-look .product-legend {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .product-cross-sells-look-description {
+        padding: 0 1.5625rem;
+        margin-top: 1.25rem;
+    }
+    .product-cross-sells-look .price-line {
+        justify-content: center;
+        margin-top: 1.25rem;
+    }
+    .product-cross-sells-look-slider-product {
+        text-align: center;
+        padding: 0 0.3125rem;
+    }
+    .product-cross-sells-look-slider-product .button-link {
+        margin-top: 1.25rem;
+        text-transform: uppercase;
+    }
+    .product-cross-sells-look-slider-product .button-link svg {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.static-button {
+    text-transform: uppercase;
+}
+
+.static-button .icon {
+    width: 0.75rem;
+    height: 1.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.cross-sells-ritual {
+    background-color: #f6f6f6;
+    padding: 1.25rem 3.125rem 2.5rem;
+    box-shadow: -62.5rem 0 0 0 #f6f6f6, 62.5rem 0 0 0 #f6f6f6;
+}
+
+.cross-sells-ritual__title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .cross-sells-ritual {
+        padding: 1.25rem 0 2.5rem;
+    }
+    .cross-sells-ritual__title {
+        padding: 0 1.25rem;
+        box-sizing: border-box;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.cross-sells-ritual-icon-slider .slider.slider--wrapped .slick-slider {
+    padding-left: 34%;
+    padding-right: 34%;
+}
+
+.cross-sells-ritual-icon-slider .slick-initialized .slick-slide {
+    display: flex;
+    justify-content: center;
+    min-height: 160px;
+    align-items: flex-end;
+}
+
+.cross-sells-ritual-icon-slider__card {
+    width: 100%;
+    min-width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.cross-sells-ritual-icon-slider__card__svg {
+    margin-bottom: 1.25rem;
+    width: 7rem;
+    height: 7rem;
+}
+
+.cross-sells-ritual-icon-slider__card__svg svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cross-sells-ritual-icon-slider.no-icons .slick-initialized .slick-bottom {
+    margin-top: 0.3125rem;
+}
+
+.cross-sells-ritual-icon-slider.no-icons .slick-initialized .slick-slide {
+    min-height: unset;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.cross-sells-ritual-title-slider .slider.slider--wrapped .slick-slider {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.cross-sells-ritual-title-slider .slider .slick-track .slick-slide {
+    padding: 0 1.25rem;
+}
+
+.cross-sells-ritual-title-slider__step {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.cross-sells-ritual-title-slider__step-number {
+    font-family: "DinCondensedBold", "Century Gothic Std", Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.cross-sells-ritual-title-slider .slick-bottom {
+    display: none;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .cross-sells-ritual-title-slider .slider .slick-track .slick-slide {
+        padding: 0 0.21875rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.cross-sells-ritual-product-slider .slider.slider--wrapped .slick-slider {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.cross-sells-ritual-product-slider .slider .slick-track .slick-slide {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    padding: 0 1.25rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .cross-sells-ritual-product-slider {
+        padding-bottom: 2.5rem;
+    }
+    .cross-sells-ritual-product-slider .slick-slide {
+        padding: 0 0.21875rem !important;
+    }
+    .cross-sells-ritual-product-slider .slick-slide .product-legend {
+        opacity: 0;
+        transform: translateX(-30%);
+        transition: opacity 0.4s 0.1s ease-in, transform 0.5s 0s ease-in;
+    }
+    .cross-sells-ritual-product-slider .slick-slide.slick-active .product-legend {
+        opacity: 1;
+        transform: translateX(0rem);
+        transition: opacity 0.4s 0s ease-out, transform 0.5s 0s ease-out;
+    }
+    .cross-sells-ritual-product-slider .slick-slide.slick-active+.slick-slide .product-legend {
+        opacity: 0;
+        transform: translateX(30%);
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.cross-sells-ritual-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.cross-sells-ritual-card .product {
+    width: 100%;
+}
+
+.cross-sells-ritual-card .product-link {
+    align-items: center;
+    width: 100%;
+}
+
+.cross-sells-ritual-card .product-image {
+    width: 100%;
+}
+
+.cross-sells-ritual-card .product-legend {
+    justify-content: space-around;
+    margin-top: 0.875rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    min-height: 9.375rem;
+    margin-left: 0;
+    width: 100%;
+}
+
+.cross-sells-ritual-card .product-legend .product-title {
+    font-family: "Century Gothic Std", Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0.625rem;
+}
+
+.cross-sells-ritual-card .product-legend .price-line {
+    display: block;
+}
+
+.cross-sells-ritual-card .add-to-cart-button {
+    height: 3.125rem;
+    border-radius: 3.125rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .cross-sells-ritual-card .product-legend {
+        min-height: 6.25rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.added-to-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 3rem;
+    min-height: 11.75rem;
+}
+
+.added-to-cart-title {
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 0.0625rem solid #e5e5e5;
+}
+
+.added-to-cart-title-placeholder {
+    background-clip: content-box;
+    height: 1.1875rem !important;
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 0.0625rem solid #e5e5e5;
+    margin-top: 0 !important;
+    width: 20.625rem !important;
+}
+
+.added-to-cart-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.added-to-cart-basket-link {
+    text-decoration: underline;
+    margin-top: 0.9375rem;
+    align-self: center;
+}
+
+.added-to-cart .button-link {
+    display: flex;
+    margin: 0.5rem 0;
+    line-height: 1;
+}
+
+.added-to-cart__loader {
+    margin: auto;
+}
+
+.added-to-cart .basket-error-box {
+    margin-bottom: 1.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.basket-error-box__message {
+    margin-left: 2.1875rem;
+    margin-bottom: 0.375rem;
+    font-size: 0.9375rem;
+}
+
+.basket-error-box__message:last-child {
+    margin-bottom: 0;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.add-to-cart-button.button-link {
+    border-radius: 3.75rem !important;
+    text-transform: uppercase;
+    font-size: 0.9375rem;
+}
+
+.add-to-cart-button.button-link .button-link-content .icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0;
+}
+
+.add-to-cart-button.button-link .icon+.button-link__title {
+    margin-left: 0.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.how-to {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.how-to__title {
+    text-align: center;
+    margin: 0.75rem 0;
+    max-width: 100%;
+}
+
+.how-to .player {
+    max-width: 100%;
+}
+
+.how-to__products {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-top: 1.875rem;
+}
+
+.how-to__products--centered {
+    justify-content: center;
+}
+
+.how-to__products .product {
+    width: 20.9375rem;
+    margin: 0 1.5625rem 0.9375rem 0;
+}
+
+.how-to__products .product-image {
+    width: 9.375rem;
+}
+
+.how-to__products .product .toggle-wishlist {
+    right: calc(52% + 1.25rem);
+}
+
+.how-to__products .product-title,
+.how-to__products .product-subtitle {
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+}
+
+.how-to__products .product .product-legend {
+    padding-right: 0;
+}
+
+.how-to__products .product .product-legend .price-line {
+    margin-top: 0.3125rem;
+    font-size: 0.8125rem;
+}
+
+.how-to--slider {
+    width: 90%;
+}
+
+.how-to--slider__description {
+    text-align: center;
+    margin-top: 1.375rem;
+    max-width: 100%;
+}
+
+.how-to--slider .slider {
+    margin-top: 1.875rem;
+}
+
+.how-to--slider .slider .slick-list {
+    margin: 0 10%;
+}
+
+.how-to--slider .slider .slick-slide {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.how-to--slider .slider .arrow-icon {
+    position: absolute;
+    top: 30%;
+    z-index: 2;
+}
+
+.how-to--slider .slider .arrow-icon--right {
+    right: 5%;
+}
+
+.how-to--slider .slider .arrow-icon--left {
+    left: 5%;
+}
+
+@media screen and (min-width: 47.9375rem) and (max-width: 64rem) {
+    .how-to--slider .slider .arrow-icon {
+        top: 18%;
+    }
+}
+
+.how-to--slider .slider .product-link {
+    align-items: center;
+}
+
+.how-to--slider .slider .product-image {
+    width: 100%;
+    max-width: 18.125rem;
+}
+
+.how-to--slider .slider .product-legend {
+    width: 100%;
+    margin-left: 0;
+}
+
+.how-to--slider .slider .product-legend>* {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 1.25rem;
+    font-size: 0.8125rem;
+}
+
+.how-to--slider .slider .product-legend .product-title {
+    text-transform: uppercase;
+    font-family: inherit;
+    padding-bottom: 0.3125rem;
+}
+
+.how-to--slider .slider .product-legend .product-subtitle {
+    line-height: 1.5rem;
+}
+
+.how-to--slider .slider .product-legend-tags,
+.how-to--slider .slider .product-legend-bottom .toggle-wishlist {
+    display: none;
+}
+
+.how-to--slider .slider .product-legend .price-line {
+    display: inline;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .how-to {
+        width: 100%;
+    }
+    .how-to__tutorials {
+        box-sizing: border-box;
+        padding: 0 0.9375rem 0 0.625rem;
+    }
+    .how-to__products {
+        margin: 1.25rem 0 0 1.25rem;
+    }
+    .how-to__products .product {
+        width: 100%;
+        margin-right: 0.625rem;
+    }
+    .how-to__products .product .product-image {
+        width: 12.5rem;
+    }
+    .how-to__products .product-legend {
+        width: 65%;
+    }
+    .how-to--slider .slider .slick-slide {
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+    }
+    .how-to--slider .slider .product-image {
+        max-width: 15.3125rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.button-tabs {
+    height: 4.1875rem;
+    z-index: 2;
+    overflow-y: visible;
+    position: relative;
+}
+
+.button-tabs .flex-grow {
+    display: flex;
+    flex-grow: 1;
+}
+
+.button-tabs-slider {
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    padding-top: 0.3125rem;
+    padding-bottom: 1.875rem;
+    justify-content: flex-start;
+}
+
+.button-tabs-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.button-tabs-item-input:checked+.button-tabs-item-label {
+    color: black;
+    border: 0.125rem solid black;
+    padding: 0 1.1875rem;
+}
+
+.button-tabs-item-input:checked+.button-tabs-item-label span {
+    font-family: "Century Gothic Std Bold";
+}
+
+.button-tabs-item-input:checked+.button-tabs-item-label--with-dropdown:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -2rem;
+    left: calc(50% - 0.3125rem);
+    width: 0.625rem;
+    height: 0.625rem;
+    background: white;
+    border-right: 0.0625rem solid #e5e5e5;
+    border-bottom: 0.0625rem solid #e5e5e5;
+    transform: rotate(225deg);
+}
+
+.button-tabs-item-input.focus-visible:focus:checked+.button-tabs-item-label {
+    outline: 0.3125rem auto #3b99fc;
+}
+
+.button-tabs-item-label {
+    position: relative;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 0.0625rem solid #757575;
+    border-radius: 1.25rem;
+    height: 2.75rem;
+    padding: 0 1.25rem;
+    margin: 0 0.625rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #757575;
+}
+
+.button-tabs-item-label span::before,
+.button-tabs-item-label span::after {
+    display: block;
+    content: attr(title);
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.button-tabs-item-label span::before {
+    font-family: "Century Gothic Std Bold";
+}
+
+.button-tabs-item-label span::after {
+    font-family: "Century Gothic Std", Arial, sans-serif;
+}
+
+.button-tabs-item-label:hover span {
+    font-family: "Century Gothic Std Bold";
+}
+
+.button-tabs-item-label:hover span::after {
+    font-family: "Century Gothic Std", Arial, sans-serif;
+}
+
+@media screen and (max-width: 47.9375rem) {
+    .button-tabs {
+        width: 100%;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.nuances {
+    position: relative;
+    width: 100%;
+}
+
+.nuances__title {
+    text-align: center;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.nuances .slick-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nuances .arrow-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.625rem;
+    padding-top: 0;
+    z-index: 1;
+}
+
+.nuances .arrow-icon--left {
+    left: 0;
+}
+
+.nuances .arrow-icon--right {
+    right: 0;
+}
+
+.nuances__image {
+    position: relative;
+    margin: 0 auto;
+}
+
+.nuances__image__button {
+    position: absolute;
+    height: 2.1875rem;
+    left: 1.25rem;
+    bottom: 1.25rem;
+    font-size: 0.9375rem;
+}
+
+.nuances__image__button.button-link.white {
+    border-color: transparent;
+    padding: 0 1.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.tooltip-chip {
+    position: absolute;
+}
+
+.tooltip-chip__bullet {
+    position: absolute;
+    border: 0.3125rem solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+}
+
+.tooltip-chip__arrow {
+    position: absolute;
+    border-width: calc(2* 0.125rem);
+    border-color: transparent transparent #ffffff transparent;
+    border-style: solid;
+}
+
+.tooltip-chip__arrow--top {
+    top: calc(-4*0.125rem);
+    left: calc(-2*0.125rem);
+    transform: rotate(180deg);
+}
+
+.tooltip-chip__arrow--right {
+    top: calc(-2* 0.125rem);
+    transform: rotate(-90deg);
+}
+
+.tooltip-chip__arrow--bottom {
+    top: 0;
+    left: calc(-2* 0.125rem);
+}
+
+.tooltip-chip__arrow--left {
+    top: calc(-2* 0.125rem);
+    left: calc(-4* 0.125rem);
+    transform: rotate(90deg);
+}
+
+.tooltip-chip__tooltip {
+    font-size: 0.8125rem;
+    white-space: nowrap;
+    background-color: #ffffff;
+    text-decoration: underline;
+    border-radius: 1.5625rem;
+    line-height: 1;
+    padding: 0.3125rem 0.75rem;
+    z-index: 1;
+}
+
+.tooltip-chip__tooltip--top {
+    transform: translateX(-50%) translateY(-100%) translateY(-0.3125rem) translateY(-0.125rem);
+}
+
+.tooltip-chip__tooltip--right {
+    transform: translateX(0.3125rem) translateX(0.125rem) translateY(-50%);
+}
+
+.tooltip-chip__tooltip--bottom {
+    transform: translateX(-50%) translateY(0.3125rem) translateY(0.125rem);
+}
+
+.tooltip-chip__tooltip--left {
+    transform: translateX(-100%) translateX(-0.125rem) translateX(-0.3125rem) translateY(-50%);
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-insights {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-insights__container {
+    max-width: 37.5rem;
+    width: 100%;
+}
+
+.product-insights__percentage-circles {
+    display: flex;
+    margin-top: 0.9375rem;
+}
+
+.product-insights__percentage-circles li {
+    padding: 0 0.3125rem;
+    display: flex;
+    width: 100%;
+}
+
+.product-insights__text {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.product-insights__legend {
+    width: 100%;
+    margin-top: 2.5rem;
+    font-size: 0.8125rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .product-insights {
+        padding: 0 1.25rem;
+        box-sizing: border-box;
+    }
+    .product-insights__percentage-circles {
+        flex-direction: column;
+    }
+    .product-insights__percentage-circles li {
+        padding: 0.3125rem 0;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.percentage-circle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.percentage-circle__main {
+    position: relative;
+    width: 6.25rem;
+    height: 6.25rem;
+    display: flex;
+}
+
+.percentage-circle__main__title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: "DinCondensedBold", "Century Gothic Std", Arial, sans-serif;
+}
+
+.percentage-circle__main__title>span {
+    transform: translateY(12%);
+}
+
+@supports (-ms-ime-align: auto) {
+    .percentage-circle__main__title>span {
+        /* EDGE CSS styles go here */
+        transform: translateY(2%);
+    }
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .percentage-circle__main__title>span {
+        /* IE10+ CSS styles go here */
+        transform: translateY(2%);
+    }
+}
+
+.percentage-circle__main__svg {
+    height: inherit;
+    width: inherit;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.percentage-circle__main__background-circle {
+    fill: transparent;
+    stroke: #cecece;
+}
+
+.percentage-circle__main__offset-circle {
+    fill: transparent;
+    stroke: #000000;
+}
+
+.percentage-circle__legend {
+    width: 100%;
+    margin-top: 1.25rem;
+    text-align: center;
+    font-size: 0.9375rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .percentage-circle {
+        flex-direction: row;
+    }
+    .percentage-circle__main {
+        margin: 0 1.25rem 0 0;
+        width: 5rem;
+        min-width: 5rem;
+        height: 5rem;
+    }
+    .percentage-circle__main__title.size-xl.title-with-level {
+        font-size: 2rem;
+    }
+    .percentage-circle__legend {
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    .percentage-circle__main+.percentage-circle__legend {
+        text-align: left;
+        margin-top: 0;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.vertical-media {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1.25rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.vertical-media__title {
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.vertical-media__list {
+    display: flex;
+    flex: 1 1 calc(50% - 1.25rem);
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.vertical-media__list .vertical-media__text-item {
+    margin-bottom: 1.25rem;
+    align-items: center !important;
+    flex-direction: column;
+    font-size: 0.9375rem;
+}
+
+.vertical-media__list .vertical-media__text-item .multiline-text {
+    max-width: 37.5rem;
+}
+
+.vertical-media__list .vertical-media__text-item--footnote {
+    margin-top: 1.25rem;
+    font-style: italic;
+    font-size: 0.8125rem;
+}
+
+.vertical-media__list .vertical-media__item {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.vertical-media__list .vertical-media__item .vertical-media__image {
+    position: relative;
+    width: 100%;
+}
+
+.vertical-media__list .vertical-media__item .vertical-media__image__legend {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 1rem;
+}
+
+.vertical-media__list--shifted {
+    max-width: 61.25rem;
+}
+
+.vertical-media__list--shifted .vertical-media__item {
+    width: calc(50% - 1.25rem);
+}
+
+.vertical-media__list--shifted .vertical-media__item--odd {
+    margin-left: 2.5rem;
+    margin-top: 25%;
+}
+
+.vertical-media__list--shifted .vertical-media__item--centered {
+    width: 65.75%;
+    margin: 1.25rem auto;
+}
+
+.vertical-media__list--shifted.vertical-media__list--reversed {
+    flex-direction: row-reverse;
+}
+
+.vertical-media__list--shifted.vertical-media__list--reversed .vertical-media__item--odd {
+    margin-left: 0;
+}
+
+.vertical-media__list--shifted.vertical-media__list--reversed .vertical-media__item--even {
+    margin-left: 2.5rem;
+}
+
+.vertical-media__list--shifted.vertical-media__list--reversed .vertical-media__item--centered {
+    margin: 1.25rem auto;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .vertical-media {
+        padding-top: unset;
+    }
+    .vertical-media__title {
+        padding: 0 1.25rem;
+        box-sizing: border-box;
+    }
+    .vertical-media__list {
+        display: flex;
+        flex: 1 1 100%;
+    }
+    .vertical-media__list .vertical-media__item {
+        margin-bottom: 2.5rem;
+    }
+    .vertical-media__list .vertical-media__text-item {
+        padding: 0 1.25rem;
+    }
+    .vertical-media__list--shifted .vertical-media__item {
+        width: 100%;
+    }
+    .vertical-media__list--shifted .vertical-media__item:nth-child(2n) {
+        margin: 0 0 2.5rem 2.5rem;
+    }
+    .vertical-media__list--shifted .vertical-media__item:nth-child(2n + 1) {
+        margin: 0 2.5rem 2.5rem 0;
+    }
+    .vertical-media__list--shifted.vertical-media__list--reversed .vertical-media__item:nth-child(2n) {
+        margin: 0 2.5rem 2.5rem 0;
+    }
+    .vertical-media__list--shifted.vertical-media__list--reversed .vertical-media__item:nth-child(2n + 1) {
+        margin: 0 0 2.5rem 2.5rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.couture-description {
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+}
+
+.couture-description__html,
+.couture-description__content {
+    margin-top: 1.25rem;
+}
+
+.couture-description__html li,
+.couture-description__content li {
+    list-style-type: disc;
+}
+
+.couture-description__html {
+    width: 100%;
+}
+
+.couture-description__block {
+    margin-bottom: 1.5rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.olapic {
+    margin-bottom: 2.5rem;
+}
+
+.olapic-cards {
+    max-width: 52.5rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+.olapic-link {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1.125rem;
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .olapic-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .olapic-cards>div:first-child {
+        padding-bottom: 1.875rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.olapic-card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    padding: 0 1.25rem;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.olapic-card-icon {
+    display: inline-flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-1.75rem);
+}
+
+.olapic-card-icon .icon {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.olapic-card-icon svg circle {
+    fill: black;
+}
+
+.olapic-card-icon svg path {
+    stroke: white;
+    stroke-width: 0.0625rem;
+    transform: scale(1.2);
+    transform-origin: center;
+}
+
+.olapic-card-main {
+    border: 0.0625rem solid #000000;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 1.75rem;
+}
+
+.olapic-card-title {
+    display: inline-block;
+    margin: 1.0625rem 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .olapic-card {
+        width: 80%;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.reviews {
+    width: 100%;
+    border-top: #e5e5e5 1px solid;
+    margin: 2.5rem 0 3.75rem;
+    padding-top: 1.25rem;
+}
+
+.reviews__title {
+    padding: 0 1.25rem 0.625rem 1.25rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.reviews__content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .reviews__content {
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1.25rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.review-list {
+    width: 38.75rem;
+    margin-left: 1.875rem;
+}
+
+.review-list__reviews {
+    position: relative;
+    padding: 1rem 1.25rem 2.5rem 1rem;
+    border: 0.0625rem solid #000000;
+    border-radius: 0.625rem;
+    box-sizing: border-box;
+}
+
+.review-list__reviews .review {
+    margin-top: 2.5rem;
+}
+
+.review-list__reviews .review+.review {
+    margin-top: 0;
+    padding-top: 1.875rem;
+}
+
+.review-list__reviews__display {
+    position: absolute;
+    bottom: -2.625rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border: 0.0625rem solid #000000;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.review-list__reviews__display span {
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.review-list__heading {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8125rem;
+}
+
+.review-list__heading__recent-reviews {
+    color: #757575;
+}
+
+.review-list__heading__filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .review-list {
+        width: 100%;
+        margin-left: 0;
+    }
+    .review-list__heading {
+        padding: 0 1.25rem;
+    }
+    .review-list__heading__recent-reviews {
+        display: none;
+    }
+    .review-list__reviews {
+        width: 100%;
+        margin-top: 0.625rem;
+    }
+    .review-list__reviews .review {
+        margin-top: 0;
+    }
+    .review-list__reviews__recent-reviews {
+        display: flex;
+        margin-top: 0rem;
+        margin-bottom: 0.625rem;
+        justify-content: center;
+        font-size: 0.8125rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.review {
+    display: inline-flex;
+    width: 100%;
+    color: #000000;
+    font-size: 0.8125rem;
+}
+
+.review__profile {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0.75rem;
+    line-height: 1.5rem;
+    font-size: 0.8125rem;
+    font-weight: normal;
+}
+
+@media screen and (min-width: 50rem) {
+    .review__profile {
+        font-size: 0.9375rem;
+    }
+}
+
+.review__description {
+    padding-left: 2.5rem;
+    border-left: 1px solid #e5e5e5;
+    width: 75%;
+}
+
+.review__description__rating {
+    display: inline-flex;
+    align-items: center;
+}
+
+.review__description__rating .review__rating__star {
+    width: 1rem;
+    height: 0.9375rem;
+}
+
+.review__description__rating>span {
+    font-size: 0.8125rem;
+    margin-left: 0.625rem;
+}
+
+.review__description__rating__date {
+    padding: 0;
+    color: #757575;
+}
+
+.review__description__title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 0.9375rem;
+    margin-top: 0.5rem;
+}
+
+.review__description__title .title-with-level {
+    margin-top: 0.25rem;
+    margin-right: 0.5rem;
+    font-family: "Century Gothic Std Bold";
+}
+
+.review__description__title .chip {
+    margin-top: 0.25rem;
+}
+
+.review__description__content {
+    font-size: 0.8125rem;
+    line-height: 1.5rem;
+    margin-top: 0.75rem;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: auto;
+}
+
+.review__description__is-recommended {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.review__description__is-recommended .icon,
+.review__description__is-recommended svg {
+    display: block;
+    width: 1.25rem;
+    height: 0.8125rem;
+}
+
+.review__description__is-recommended span {
+    font-family: "Century Gothic Std Bold";
+    line-height: 1.5rem;
+}
+
+.review__description__is-recommended span+span {
+    margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .review__profile {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+    .review__description {
+        padding: 0;
+        border: none;
+        width: 100%;
+    }
+    .review__description__rating {
+        display: flex;
+        justify-content: space-between;
+    }
+    .review__description__title {
+        margin-top: 0.25rem;
+    }
+    .review__description__title .title-with-level {
+        width: auto;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.chip {
+    background-color: #f6f6f6;
+    font-size: 0.6875rem;
+    padding: 0.25rem 0.625rem;
+    border-radius: 0.625rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.chip__icon {
+    margin-right: 0.3125rem;
+    height: 0.6875rem;
+    width: 0.625rem;
+}
+
+.chip__icon svg {
+    height: 0.6875rem;
+    width: 0.625rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.reviews-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+}
+
+.reviews-select .reviews-selected {
+    display: flex;
+}
+
+.reviews-select .reviews-selected .icon {
+    right: 1.25rem;
+    margin-left: 0.6875rem;
+    height: 1rem;
+}
+
+.reviews-select .reviews-selected .icon svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.reviews-select.is-open .reviews-selected .icon svg {
+    transform: rotate(180deg);
+}
+
+.reviews-select .custom-select-hzn-options {
+    width: auto;
+    left: inherit;
+    right: 0;
+    top: 100%;
+    margin-top: 0.375rem;
+    padding: 0.375rem 0 0.4375rem;
+    background-color: white;
+    border: solid 0.0625rem #e5e5e5;
+    border-radius: 0.3125rem;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.reviews-select .custom-select-hzn-option {
+    padding: 0.625rem 1.1875rem;
+}
+
+.reviews-select .custom-select-hzn-option--selected {
+    background-color: #f6f6f6;
+    font-family: "Century Gothic Std Bold";
+}
+
+.reviews-select .custom-select-hzn-option:focus.focus-visible {
+    outline-offset: -0.25rem;
+}
+
+.reviews-select-option::after {
+    display: block;
+    content: attr(title);
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    font-family: "Century Gothic Std Bold";
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.reviews-resume {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 13.125rem;
+    font-size: 0.8125rem;
+}
+
+.reviews-resume__title {
+    font-size: 0.9375rem;
+    margin-bottom: 1.25rem;
+}
+
+.reviews-resume .product-rating {
+    display: block;
+}
+
+.reviews-resume__score {
+    margin: 0.625rem 0 0.5rem 0;
+    font-size: 3.25rem;
+    font-family: "DinCondensedBold", "Century Gothic Std", Arial, sans-serif;
+}
+
+.reviews-resume__gcu {
+    color: #757575;
+    line-height: 1.25rem;
+}
+
+.reviews-resume__gcu a {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .reviews-resume {
+        margin-bottom: 2.1875rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.top-content-desktop--beauty .product-page-engraving {
+    margin-top: 1.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.stock-in-store {
+    max-width: 50rem;
+    width: 100%;
+}
+
+.stock-in-store__title {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 50rem) {
+    .stock-in-store__content {
+        width: calc(100% + 0.4375rem);
+        height: 52vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .stock-in-store__content::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 0.4375rem;
+    }
+    .stock-in-store__content::-webkit-scrollbar-thumb {
+        border-radius: 0.25rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 0.0625rem rgba(255, 255, 255, 0.5);
+        -webkit-box-shadow: 0 0 0.0625rem rgba(255, 255, 255, 0.5);
+    }
+    .stock-in-store__product {
+        width: 40%;
+        box-sizing: border-box;
+        padding-right: 2.5rem;
+    }
+    .stock-in-store__product.sticky-to-top {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    .stock-in-store__boutiques {
+        width: 60%;
+        padding-right: 0.125rem;
+        box-sizing: border-box;
+    }
+    .stock-in-store__reserve-in-store {
+        padding-right: 0.125rem;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .stock-in-store__product {
+        margin-bottom: 1.25rem;
+    }
+}
+
+.stock-in-store__product .toggle-wishlist {
+    display: none;
+}
+
+.stock-in-store__product .product-title {
+    font-family: "Century Gothic Std Bold";
+}
+
+.stock-in-store__variation {
+    margin: 0 auto;
+}
+
+.stock-in-store__reserve-in-store {
+    width: 100%;
+}
+
+.stock-in-store__mention {
+    color: #757575;
+    font-size: 0.8125rem;
+    padding-top: 2.5rem;
+    text-align: center;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.reserve-in-store-banner {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reserve-in-store-banner li {
+    box-sizing: border-box;
+    width: calc((100% - 20px) / 3);
+    background-color: #f6f6f6;
+    border-radius: 0.3125rem;
+    padding: 0.625rem 1.25rem 1.25rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .reserve-in-store-banner {
+        flex-direction: column;
+    }
+    .reserve-in-store-banner li {
+        width: 100%;
+        padding: 1.875rem;
+    }
+    .reserve-in-store-banner li:not(:last-child) {
+        margin-bottom: 0.625rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.reserve-in-store-banner-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 0.8125rem;
+    line-height: 1.125rem;
+}
+
+.reserve-in-store-banner-item .icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5625rem;
+}
+
+.reserve-in-store-banner-item .icon,
+.reserve-in-store-banner-item svg {
+    width: 1.875rem;
+    height: 2.375rem;
+}
+
+.reserve-in-store-banner-item-title {
+    max-width: 16rem;
+    font-family: "Century Gothic Std Bold";
+    text-transform: uppercase;
+}
+
+.reserve-in-store-banner-item-subtitle {
+    max-width: 16rem;
+    font-family: "Century Gothic Std", Arial, sans-serif;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.reserve-in-store-form>p {
+    margin: 1.625rem 0 0.9375rem;
+    line-height: 1.5rem;
+}
+
+.reserve-in-store-form-link {
+    text-decoration: underline;
+}
+
+.reserve-in-store-form-link:hover {
+    font-weight: bold;
+}
+
+.reserve-in-store-form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.reserve-in-store-form-field {
+    width: 100%;
+}
+
+.reserve-in-store-form .reserve-in-store-flight-number p {
+    color: #757575;
+    font-size: 0.8125rem;
+    padding-bottom: 0.625rem;
+}
+
+@media screen and (min-width: 47.9375rem) {
+    .reserve-in-store-form-row {
+        flex-direction: row;
+    }
+    .reserve-in-store-form-field,
+    .reserve-in-store-form .reserve-in-store-flight-number p {
+        width: calc(50% - 1.125rem);
+    }
+    .reserve-in-store-form-field:first-child {
+        margin-right: 1.125rem;
+    }
+}
+
+.reserve-in-store-form-submit-row {
+    margin-top: 1.4375rem;
+    text-align: center;
+}
+
+.reserve-in-store-form .select-field {
+    margin-bottom: 0.8125rem;
+}
+
+.reserve-in-store-form .button-link {
+    width: 100%;
+    height: 3.75rem;
+    border-radius: 3.75rem;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 47.9375rem) {
+    .reserve-in-store-form .button-link {
+        width: 30%;
+    }
+}
+
+.reserve-in-store-form .checkbox-list {
+    margin: 0.1875rem 0;
+}
+
+.reserve-in-store-form .checkbox {
+    position: relative;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.reserve-in-store-status {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reserve-in-store-status>p {
+    margin: 1.3125rem 0;
+}
+
+.reserve-in-store-status-bg {
+    font-size: 1.625rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    margin: 1.75rem 0 1.3125rem;
+}
+
+.reserve-in-store-status-sm {
+    font-size: 0.8125rem;
+    color: #757575;
+    margin: 1.3125rem 0 2.625rem;
+}
+
+.reserve-in-store-status-error {
+    color: #d70000;
+}
+
+.reserve-in-store-status__loader {
+    margin: 1.75rem 0 1.3125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.reserve-in-store-form-loading {
+    text-align: center;
+}
+
+.reserve-in-store-form-loading__loader {
+    margin: auto;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+p.reserve-in-store-loading-error {
+    text-align: center;
+    color: #d70000;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.reserve-in-store-not-connected {
+    margin-top: 2rem;
+    border-top: 0.0625rem solid #cecece;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 47.9375rem) {
+    .reserve-in-store-not-connected {
+        border: 0;
+        padding-top: 0;
+        margin-top: 1.25rem;
+    }
+}
+
+.reserve-in-store-not-connected-instructions {
+    width: 70%;
+    line-height: 1.5rem;
+    margin-bottom: 0.875rem;
+}
+
+@media screen and (max-width: 47.9375rem) {
+    .reserve-in-store-not-connected-instructions {
+        width: 100%;
+    }
+}
+
+.reserve-in-store-not-connected-panels {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reserve-in-store-not-connected-panels-item {
+    width: calc(50% - 0.625rem);
+    padding: 2.5rem 0;
+    margin-bottom: 1.25rem;
+    box-sizing: border-box;
+    border: 0.0625rem solid #cecece;
+    border-radius: 0.3125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 47.9375rem) {
+    .reserve-in-store-not-connected-panels-item {
+        width: 100%;
+    }
+}
+
+.reserve-in-store-not-connected-benefits {
+    max-width: 80%;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.reserve-in-store-not-connected-benefits-item {
+    line-height: 1.5rem;
+    font-size: 0.8125rem;
+    margin-bottom: 0.5rem;
+}
+
+.reserve-in-store-not-connected-benefits-item:before {
+    content: '-';
+    padding-right: 0.25rem;
+}
+
+.reserve-in-store-not-connected-title {
+    max-width: 70%;
+    margin-bottom: 1rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.stock-in-store-variation {
+    text-align: center;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+}
+
+.stock-in-store-variation .generic-variations-slider {
+    margin: 1.875rem auto;
+}
+
+.stock-in-store-variation a {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 50rem) {
+    .stock-in-store-variation {
+        width: 92%;
+    }
+    .stock-in-store-variation .generic-variations-slider {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .stock-in-store-variation .generic-variations-slider {
+        width: 90%;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.generic-variations-slider .slider {
+    overflow: visible;
+}
+
+.generic-variations-slider .slide-content {
+    text-align: center;
+}
+
+.generic-variations-slider .slick-bottom {
+    margin-top: 0;
+}
+
+.generic-variations-slider .arrow-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top: 0;
+    z-index: 1;
+}
+
+.generic-variations-slider .arrow-icon svg {
+    width: 0.9375rem;
+    height: 1.25rem;
+}
+
+.generic-variations-slider .arrow-icon.slick-disabled {
+    display: none;
+}
+
+.generic-variations-slider .arrow-icon--left {
+    left: -1rem;
+}
+
+.generic-variations-slider .arrow-icon--right {
+    right: -1rem;
+}
+
+.generic-variations-slider .slick-bottom {
+    margin-top: 0;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.size {
+    display: inline-flex;
+    box-sizing: border-box;
+    width: 3.375rem;
+    height: 3.375rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.size input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.size input:enabled {
+    cursor: pointer;
+}
+
+.size.is-selected {
+    border: 0.0625rem solid black;
+}
+
+.size.is-available {
+    cursor: pointer;
+    color: black;
+}
+
+.size.is-available label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.size:not(.is-available) label {
+    text-decoration: line-through;
+}
+
+.size svg {
+    width: 0.8125rem;
+    height: 0.5625rem;
+    margin-left: 0.3125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.stores-list {
+    font-size: 0.9375rem;
+}
+
+.stores-list-title {
+    margin-bottom: 0.625rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .stores-list-title {
+        margin-bottom: 1.25rem;
+    }
+}
+
+.stores-list-boutique {
+    display: flex;
+    border: 0.0625rem solid black;
+    padding: 1.25rem;
+    margin-bottom: 0.9375rem;
+    border-radius: 0.3125rem;
+}
+
+.stores-list-boutique-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 3.125rem;
+    margin-right: 0.9375rem;
+    font-size: 0.9375rem;
+    flex-shrink: 0;
+}
+
+.stores-list-empty {
+    text-align: center;
+}
+
+.stores-list-empty a {
+    text-decoration: underline;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.store-information {
+    width: 100%;
+    font-size: 0.9375rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.store-information .store-services {
+    margin: 0.625rem 0;
+}
+
+.store-information-amend {
+    text-decoration: underline;
+    position: absolute;
+    right: 0;
+    top: 0.1875rem;
+}
+
+.store-information-amend:hover {
+    font-weight: bold;
+}
+
+.store-information-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.store-information-link {
+    text-decoration: underline;
+}
+
+.store-information-link:hover {
+    font-weight: bold;
+}
+
+.store-information-actions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1.5625rem 0 0.625rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.store-address-and-opening-hours {
+    width: 100%;
+    font-size: 0.9375rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.store-address-and-opening-hours__title {
+    text-transform: uppercase;
+    margin-top: 0.1875rem;
+}
+
+.store-address-and-opening-hours .store-product-stock {
+    font-family: "Century Gothic Std Bold";
+    padding-top: 0.3125rem;
+}
+
+.store-address-and-opening-hours__address {
+    display: flex;
+    flex-direction: column;
+    margin: 0.625rem 0;
+    font-style: normal;
+    line-height: 1.5rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.store-schedule {
+    line-height: 1.5rem;
+}
+
+.store-schedule-title {
+    font-family: "Century Gothic Std Bold";
+    margin-right: 0.3125rem;
+}
+
+.store-schedule-resume {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.store-schedule-resume .icon {
+    width: 1.0625rem;
+    height: 1.0625rem;
+    margin-left: 1.25rem;
+}
+
+.store-schedule-resume-no-click {
+    display: flex;
+    align-items: center;
+}
+
+.store-schedule-table {
+    list-style-type: none;
+    margin-bottom: 0.9375rem;
+}
+
+.store-schedule-table li {
+    text-transform: capitalize;
+}
+
+.store-schedule-table li.today {
+    font-family: "Century Gothic Std Bold";
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .store-schedule {
+        position: relative;
+    }
+    .store-schedule-resume {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .store-schedule-resume .icon {
+        position: absolute;
+        margin-left: 0;
+        right: 0;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.store-services-title {
+    font-family: "Century Gothic Std Bold";
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.gallery {
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery .gallery-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-shrink: 1;
+    height: 100%;
+}
+
+.gallery .gallery-container:hover .gallery-controls .arrow {
+    visibility: visible;
+}
+
+.gallery .gallery-container .gallery-img-container {
+    padding: 0 4.6875rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery .gallery-container .gallery-controls {
+    position: absolute;
+    display: flex;
+    left: 3.125rem;
+    right: 3.125rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery .gallery-container .gallery-controls .arrow {
+    height: 3.125rem;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.gallery .gallery-container .gallery-controls .arrow .icon {
+    color: black;
+    font-size: 0.5rem;
+}
+
+.gallery .slider-zoom-control {
+    flex-shrink: 0;
+}
+
+.gallery .vertical-slider {
+    flex-shrink: 0;
+    max-height: 70vh;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.add-gift-set-to-cart {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.add-gift-set-to-cart .button-link {
+    display: flex;
+    height: 3.75rem;
+    border-radius: 3.75rem;
+    width: 80%;
+    text-transform: uppercase;
+}
+
+.add-gift-set-to-cart-placeholder {
+    height: 3.75rem !important;
+    border-radius: 3.75rem;
+    width: 80% !important;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.image-zoomer {
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.image-zoomer__viewer {
+    transition: transform 250ms ease-in-out;
+}
+
+.image-zoomer__viewer .image img {
+    max-width: 100%;
+    max-height: calc(100vh - 8em);
+    height: auto !important;
+    width: auto !important;
+}
+
+.image-zoomer__viewer--dragging {
+    transition: none;
+}
+
+.image-zoomer-legend.legend {
+    margin: 1rem 0;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .image-zoomer-legend.legend {
+        position: relative;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.not-available-status {
+    height: 3.75rem;
+    box-sizing: border-box;
+    border-radius: 1.875rem;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625rem 1.875rem;
+    display: flex;
+    background-color: #e5e5e5;
+    text-align: center;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.vertical-slider {
+    width: 3.4375rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-slider li {
+    margin-bottom: 0.9375rem;
+    opacity: 0.6;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    flex-shrink: 0;
+    /* Safari + IE11 */
+}
+
+.vertical-slider li.thumb button {
+    width: 100%;
+}
+
+.vertical-slider li.thumb--selected {
+    opacity: 1;
+}
+
+.vertical-slider li:last-child {
+    margin-bottom: 0;
+}
+
+.vertical-slider li--active {
+    opacity: 1;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9375rem;
+    padding-top: 1.25rem;
+}
+
+.product-actions-placeholder {
+    height: 3.75rem !important;
+    border-radius: 3.75rem;
+    margin-top: 1.125rem;
+}
+
+.product-actions__price {
+    display: flex;
+    margin-bottom: 0.3125rem;
+    align-items: baseline;
+}
+
+.product-actions__price .price-line {
+    font-family: "Century Gothic Std Bold";
+}
+
+.product-actions__price__details {
+    margin-left: 0.625rem;
+    font-size: 0.8125rem;
+}
+
+.product-actions__price__price-customization-details {
+    margin-bottom: 0.625rem;
+    font-size: 0.8125rem;
+    line-height: 1.125rem;
+    text-align: center;
+    color: #757575;
+}
+
+.product-actions__preorder-warning {
+    margin-bottom: 0.625rem;
+    text-align: center;
+}
+
+.product-actions.not-eco .price-line {
+    margin-bottom: 1.125rem;
+}
+
+.product-actions-status,
+.product-actions-shipping-date {
+    color: #757575;
+    margin-bottom: 0.625rem;
+    min-height: 1.125rem;
+}
+
+.product-actions-shipping-date {
+    text-align: center;
+}
+
+.product-actions-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+}
+
+.product-actions-buttons .product-actions-button {
+    width: 100%;
+    order: 3;
+    margin-bottom: 0.625rem;
+}
+
+.product-actions-buttons .product-actions-button.disabled {
+    cursor: default;
+}
+
+.product-actions-buttons .product-actions-button:first-child {
+    display: inline-flex;
+    flex-shrink: 1;
+    order: 1;
+    width: calc(100% - 3.75rem - 0.625rem);
+}
+
+.product-actions-buttons .product-actions-button-find-a-store {
+    order: 3;
+    color: #757575;
+    min-height: 1.125rem;
+}
+
+.product-actions-buttons .button-link {
+    width: 100%;
+    height: 3.75rem;
+    border-radius: 3.75rem;
+    text-transform: uppercase;
+}
+
+.product-actions-buttons .toggle-wishlist {
+    order: 2;
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 0.0625rem solid black;
+    width: 3.75rem;
+    height: 3.75rem;
+    margin-left: 0.625rem;
+}
+
+.product-actions-buttons .toggle-wishlist .icon {
+    margin: 0 auto;
+}
+
+.product-actions-free-delivery {
+    margin-top: 0.625rem;
+    text-decoration: underline;
+}
+
+.product-actions-free-delivery:hover {
+    font-weight: bold;
+}
+
+.product-actions .e-store-advantages {
+    margin-top: 1.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.scroll-overflow .arrow-icon {
+    z-index: 6;
+    padding-top: 0;
+}
+
+.scroll-overflow .arrow-icon .icon {
+    display: flex;
+}
+
+.scroll-overflow .arrow-icon--top {
+    margin-bottom: 0.3125rem;
+}
+
+.scroll-overflow .arrow-icon--bottom {
+    margin-top: 0.3125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.notify-me {
+    font-size: 0.9375rem;
+    max-width: 33.125rem;
+    min-width: 18.75rem;
+}
+
+.notify-me__large {
+    max-width: 42.5rem;
+}
+
+.notify-me-title,
+.notify-me-confirmation {
+    text-align: center;
+}
+
+.notify-me-title {
+    padding-bottom: 1.375rem;
+}
+
+.notify-me .notify-me-cdc-subtitle,
+.notify-me .notify-me-cdc-subtitle-size {
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.notify-me .notify-me-cdc-subtitle {
+    padding-bottom: 1.375rem;
+}
+
+.notify-me .notify-me-cdc-form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+.notify-me .notify-me-cdc-form-row {
+    display: flex;
+    width: 100%;
+}
+
+.notify-me .notify-me-cdc-form-row>div:last-child {
+    margin-left: 1.25rem;
+}
+
+.notify-me .notify-me-cdc-field {
+    flex: 1;
+    margin-bottom: 1.25rem;
+}
+
+.notify-me .notify-me-cdc-field .selected {
+    font-size: 0.8125rem !important;
+}
+
+.notify-me .notify-me-cdc-field .input>input {
+    font-size: 0.8125rem !important;
+}
+
+.notify-me .notify-me-cdc-submit {
+    min-width: 10.75rem;
+    margin-top: 2rem;
+}
+
+.notify-me .notify-me-cdc-newsletter-checkbox {
+    max-width: 100%;
+    font-size: 0.8125rem;
+    align-self: flex-start;
+}
+
+.notify-me .notify-me-cdc-gdpr-description {
+    margin-top: 1rem;
+    font-size: 0.8125rem;
+}
+
+.notify-me .notify-me-cdc-china-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notify-me .notify-me-cdc-china-email-field {
+    width: 65%;
+    min-width: 15.625rem;
+    margin-bottom: 2.1875rem;
+}
+
+.notify-me .notify-me-cdc-china-gdpr-checkbox {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.notify-me .notify-me-cdc-china-submit {
+    min-width: 10.75rem;
+    margin-top: 2.1875rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .notify-me .notify-me-cdc-form-row {
+        flex-direction: column;
+    }
+    .notify-me .notify-me-cdc-form-row>div:last-child {
+        margin-left: 0;
+    }
+    .notify-me .notify-me-cdc-field {
+        margin-bottom: 0.625rem;
+    }
+    .notify-me .notify-me-cdc-submit {
+        margin-top: 1.75rem;
+    }
+    .notify-me .notify-me-cdc-gdpr-description {
+        margin-top: 1.25rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.slider-zoom-control {
+    width: 3.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slider-zoom-control .zoom-level {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 8.125rem;
+    width: 3.125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.notify-me {
+    font-size: 0.9375rem;
+    max-width: 33.125rem;
+    min-width: 18.75rem;
+}
+
+.notify-me__large {
+    max-width: 42.5rem;
+}
+
+.notify-me-title,
+.notify-me-confirmation {
+    text-align: center;
+}
+
+.notify-me-title {
+    padding-bottom: 1.375rem;
+}
+
+.notify-me .notify-me-pcd-subtitle,
+.notify-me .notify-me-pcd-subtitle-size {
+    text-align: center;
+}
+
+.notify-me .notify-me-pcd-subtitle {
+    padding-bottom: 1.375rem;
+}
+
+.notify-me .notify-me-pcd-subtitle,
+.notify-me .notify-me-pcd-subtitle-size {
+    line-height: 1.5rem;
+}
+
+.notify-me .notify-me-pcd-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notify-me .notify-me-pcd-email-field {
+    width: 65%;
+    min-width: 15.625rem;
+    margin-bottom: 2.1875rem;
+}
+
+.notify-me .notify-me-pcd-submit {
+    min-width: 10.75rem;
+    margin-top: 2.1875rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.control-btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 1.5625rem;
+    height: 1.5625rem;
+    border: 0.0625rem solid #cecece;
+    margin: 0.625rem;
+}
+
+.control-btn .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-btn .icon svg {
+    height: 0.625rem;
+    width: 0.625rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.e-store-advantages {
+    width: 100%;
+    border: 0.0625rem solid #cecece;
+    border-radius: 0.3125rem;
+    padding: 1.875rem 1.25rem 0.625rem;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+}
+
+.e-store-advantages button {
+    width: 100%;
+}
+
+.e-store-advantages__advantage {
+    padding-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.e-store-advantages__advantage span {
+    text-align: left;
+}
+
+.e-store-advantages__advantage .icon {
+    height: 1.875rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.25rem;
+}
+
+.e-store-advantages__advantage .icon svg {
+    width: inherit;
+    height: inherit;
+}
+
+.e-store-advantages__advantage .icon.e-store-advantages__advantage__gift2 svg {
+    height: 1.5625rem;
+    width: 1.5625rem;
+    margin: 0 0.125rem 0 0.1875rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.zoom-mobile-slider {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.zoom-mobile-slider-pagination {
+    display: flex;
+    flex-direction: row;
+}
+
+.zoom-mobile-slider-pagination>.gridSlider-dots {
+    margin: auto 0.625rem;
+}
+
+.zoom-mobile-slider>div>div {
+    height: 100%;
+}
+
+.zoom-mobile-slider>div>div>div {
+    margin: auto 0;
+}
+
+.zoom-mobile-slider .pinch-view {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zoom-mobile-slider .image {
+    width: 90% !important;
+}
+
+@media screen and (max-width: 47.9375rem) {
+    .zoom-mobile-slider .image {
+        width: 100% !important;
+    }
+}
+
+.zoom-mobile-slider .pinchable-image {
+    margin: 0 0.0625rem;
+}
+
+.zoom-mobile-slider .slider-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.zoom-mobile-slider .slider.slider--no-wrap {
+    height: 100%;
+}
+
+.zoom-mobile-slider .slick-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.zoom-mobile-slider .controls {
+    display: flex;
+    width: 18.75rem;
+    position: absolute;
+    left: calc(50% - 9.375rem);
+    bottom: 0.3125rem;
+}
+
+@media screen and (max-width: 47.9375rem) {
+    .zoom-mobile-slider .controls {
+        bottom: 1.875rem;
+    }
+}
+
+.zoom-mobile-slider .slick-bottom {
+    margin-top: 0;
+}
+
+.zoom-mobile-slider .slick-slide:not(.slick-current) {
+    margin: auto 0;
+}
+
+.zoom-mobile-slider .slick-track {
+    display: flex;
+    align-items: center;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.e-boutique-services {
+    max-width: 37.5rem;
+    width: 100%;
+    line-height: 1.5rem;
+}
+
+.e-boutique-services-title {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.e-boutique-services .e-boutique-service {
+    margin-bottom: 1.875rem;
+}
+
+.e-boutique-services .loader {
+    min-height: 18.75rem;
+    min-width: 37.5rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .e-boutique-services .loader {
+        min-height: 100vh;
+        min-width: 100vw;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.gridSlider-dots {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 0.75rem;
+    margin: 0.625rem auto 0;
+}
+
+.gridSlider-dots-dot-wrapper {
+    width: 0.75rem;
+    height: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.gridSlider-dots .gridSlider-dot {
+    width: 0.375rem;
+    height: 0.375rem;
+    background-color: #cecece;
+    border-radius: 50%;
+    flex-shrink: 0;
+    transition: transform 0.5s ease;
+}
+
+.gridSlider-dots .gridSlider-dot.selected {
+    background-color: #000000;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.e-boutique-service {
+    font-size: 0.9375rem;
+}
+
+.e-boutique-service-title,
+.e-boutique-service-description {
+    margin-bottom: 0.625rem;
+}
+
+.e-boutique-service-description a {
+    text-decoration: underline;
+}
+
+.e-boutique-service-legend {
+    font-size: 0.8125rem;
+    margin-bottom: 0.3125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.arrow-slider-dots-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.0625rem solid #757575;
+    border-radius: 50%;
+    width: 1.875rem;
+    height: 1.875rem;
+    margin: auto;
+    z-index: 1;
+}
+
+.arrow-slider-dots-icon--right {
+    margin-left: 0;
+}
+
+.arrow-slider-dots-icon--right .icon {
+    transform: rotate(-90deg);
+}
+
+.arrow-slider-dots-icon--left {
+    margin-right: 0;
+}
+
+.arrow-slider-dots-icon--left .icon {
+    transform: rotate(90deg);
+}
+
+.arrow-slider-dots-icon .icon {
+    width: 0.6875rem;
+    height: 1.5rem;
+}
+
+.arrow-slider-dots-icon.slick-disabled {
+    border: 0.0625rem solid #757575;
+}
+
+.arrow-slider-dots-icon.slick-disabled span.icon {
+    fill: grey !important;
+    color: grey !important;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.shipping-modes {
+    font-size: 0.9375rem;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.shipping-modes td,
+.shipping-modes th {
+    font-weight: normal;
+    padding: 1.25rem;
+    font-size: 0.9375rem;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.shipping-modes td.shipping-modes-label,
+.shipping-modes th.shipping-modes-label {
+    text-align: left;
+}
+
+.shipping-modes td.shipping-modes-time,
+.shipping-modes td.shipping-modes-price,
+.shipping-modes th.shipping-modes-time,
+.shipping-modes th.shipping-modes-price {
+    border: 0.0625rem solid #e5e5e5;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.e-popup {
+    font-size: 0.9375rem;
+    max-width: 33.125rem;
+    min-width: 25rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .e-popup {
+        min-width: 19rem;
+    }
+}
+
+.e-popup-title,
+.e-popup-description,
+.e-popup-confirmation,
+.e-popup-legal-terms {
+    text-align: center;
+}
+
+.e-popup-title,
+.e-popup-description,
+.e-popup-submit {
+    margin-bottom: 1.25rem;
+}
+
+.e-popup-description {
+    line-height: 0.9375rem;
+}
+
+.e-popup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.e-popup-field {
+    width: 65%;
+    min-width: 15.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.e-popup .radio-button .text {
+    color: #757575;
+}
+
+.e-popup-submit {
+    min-width: 10.75rem;
+    margin-top: 1.5rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-rating-resume-button {
+    display: block;
+    margin-top: -0.8125rem;
+    margin-bottom: 0.8125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-page-engraving {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9375rem;
+}
+
+.product-page-engraving-button {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.product-page-engraving-button-texts {
+    display: flex;
+    flex-direction: column;
+    min-height: 2.125rem;
+    justify-content: center;
+}
+
+.product-page-engraving-button-text {
+    text-decoration: underline;
+}
+
+.product-page-engraving-button:hover .product-page-engraving-button-text {
+    font-weight: bold;
+}
+
+.product-page-engraving-button .icon {
+    margin-right: 0.9375rem;
+}
+
+.product-page-engraving-button svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.product-page-engraving-engraved-text {
+    font-size: 0.8125rem;
+    color: #757575;
+}
+
+.product-page-engraving-infos {
+    display: flex;
+    align-items: center;
+}
+
+.product-page-engraving-price {
+    margin-top: 0.125rem;
+    margin-left: 0.3125rem;
+    font-family: "Century Gothic Std Bold";
+}
+
+.product-page-engraving-tooltip {
+    margin-left: 1rem;
+}
+
+.product-page-engraving-remove-button {
+    margin: 0.25rem 0.625rem 0 1.875rem;
+}
+
+.product-page-engraving-remove-button .icon,
+.product-page-engraving-remove-button svg {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.engraving-error {
+    max-width: 28.125rem;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+}
+
+.engraving-error-title {
+    text-align: center;
+    margin-bottom: 0.625rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.engraving {
+    max-width: 28.125rem;
+    text-align: center;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+}
+
+.engraving-title {
+    margin: 0 auto 0.375rem;
+    width: 90%;
+}
+
+.engraving-price {
+    font-family: "Century Gothic Std Bold";
+}
+
+.engraving-max-characters,
+.engraving-text {
+    font-size: 0.8125rem;
+    color: #757575;
+}
+
+.engraving-max-characters {
+    width: 20.9375rem;
+    max-width: 100%;
+    text-align: right;
+    margin: 0 auto 0.875rem;
+}
+
+.engraving-text {
+    margin-top: 0.875rem;
+}
+
+.engraving .image img {
+    max-width: 100%;
+}
+
+.engraving-input-description,
+.engraving .text-input {
+    width: 20.9375rem;
+    max-width: 100%;
+    text-align: left;
+    margin: 0.625rem auto 0;
+}
+
+.engraving-input-description {
+    margin: 0.625rem auto 0;
+}
+
+.engraving .text-input {
+    margin-top: 0.9375rem;
+}
+
+.engraving .button-link {
+    min-width: 14.75rem;
+    margin-bottom: 0.875rem;
+}
+
+.engraving__loader {
+    margin: auto;
+    width: 21.875rem;
+}
+
+.engraving__cancel {
+    display: block;
+    margin: 0 auto 1.25rem;
+    text-decoration: underline;
+}
+
+.engraving__cancel:hover {
+    font-weight: bold;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.remove-engraving {
+    display: flex;
+    flex-direction: column;
+    width: 42.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.1875rem;
+}
+
+.remove-engraving__title {
+    margin-bottom: 0.625rem;
+}
+
+.remove-engraving__description {
+    line-height: 1.5rem;
+}
+
+.remove-engraving__button {
+    margin: 1.25rem 0;
+}
+
+.remove-engraving__cancel {
+    text-decoration: underline;
+}
+
+.remove-engraving__cancel:hover {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .remove-engraving {
+        width: auto;
+        padding: 0 1.3125rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.giftset-descriptions {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.0625rem solid #e5e5e5;
+    font-size: 0.9375rem;
+}
+
+.giftset-descriptions>* {
+    margin-bottom: 0.9375rem;
+}
+
+.giftset-descriptions-description {
+    margin: 0.9375rem 0;
+}
+
+.giftset-descriptions-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0.9375rem;
+}
+
+.giftset-descriptions-item-description {
+    margin-top: 0.9375rem;
+}
+
+.giftset-descriptions-total {
+    display: flex;
+    align-self: flex-end;
+    font-family: "Century Gothic Std Bold";
+    margin-bottom: 0.9375rem;
+}
+
+.giftset-descriptions-total>.price-line {
+    margin-left: 0.3125rem;
+}
+
+.giftset-item-title {
+    text-transform: uppercase;
+}
+
+.giftset-item-title.underline {
+    text-decoration: underline;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.giftset-details {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-bottom: 0.0625rem solid #e5e5e5;
+    font-size: 0.9375rem;
+}
+
+.giftset-details>* {
+    margin-bottom: 0.9375rem;
+}
+
+.giftset-details-description {
+    margin-bottom: 0.9375rem;
+}
+
+.giftset-details-item {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-bottom: 0.9375rem;
+}
+
+.giftset-details-text {
+    width: 70%;
+}
+
+.giftset-details-total {
+    display: flex;
+    align-self: flex-end;
+    font-family: "Century Gothic Std Bold";
+    margin-bottom: 1.25rem;
+}
+
+.giftset-details-total>.price-line {
+    margin-left: 0.3125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-section-description__slider {
+    margin-bottom: 1.125rem;
+}
+
+.product-section-description__slider .slick-bottom {
+    margin-top: 0;
+}
+
+.product-section-description__video {
+    margin-bottom: 1.125rem;
+}
+
+.product-section-description__video .player-subtitle {
+    top: 0;
+    bottom: unset;
+}
+
+.product-section-description__video .button-fullscreen {
+    display: none !important;
+}
+
+.product-section-description__image {
+    margin-bottom: 1.125rem;
+}
+
+.product-section-description__section-title.title-with-level {
+    font-size: 0.8125rem;
+    display: block;
+    margin-bottom: 0.3125rem;
+}
+
+.product-section-description__link {
+    display: block;
+    text-align: center;
+    margin-bottom: 1.125rem;
+}
+
+.product-section-description__link .button-link {
+    height: 2.1875rem;
+    padding: 0 1.25rem;
+}
+
+.product-section-description__link .button-link__title {
+    font-size: 0.8125rem;
+}
+
+.product-section-description__description {
+    line-height: 1.25rem;
+    font-size: 0.8125rem;
+    margin-bottom: 1.125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-description {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3125rem;
+    background-color: #f6f6f6;
+    padding: 0.3125rem 1.5rem;
+}
+
+.product-description .product-description-item:not(:first-of-type) {
+    border-top: 0.0625rem solid #e5e5e5;
+}
+
+.product-description.product-description--beauty {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.product-description.product-description--beauty .product-description-item {
+    padding: 0 1.5625rem;
+    border: none;
+}
+
+.product-description.product-description--beauty .product-description-item::after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 0.0625rem solid #e5e5e5;
+}
+
+.product-description.product-description--beauty .product-description-item:first-of-type {
+    background-color: #f6f6f6;
+}
+
+@media screen and (min-width: 50rem) {
+    .product-description.product-description--beauty .product-description-item:first-of-type {
+        border-radius: 0.3125rem;
+    }
+}
+
+.product-description.product-description--beauty .product-description-item:first-of-type::after {
+    border: none;
+}
+
+.product-description.product-description--beauty .product-description-item:last-of-type::after {
+    border: none;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-description-item__title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8125rem 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.product-description-item__title__value {
+    font-size: 0.9375rem;
+    font-family: "Century Gothic Std Bold";
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.product-description-item__title__arrow {
+    height: auto;
+    padding-top: 0;
+}
+
+.product-description-item__title__arrow svg {
+    width: 0.9375rem;
+    height: 1.125rem;
+}
+
+.product-description-item__content {
+    width: 100%;
+}
+
+.product-description-item__content--hidden {
+    width: calc(100% - 2.5rem);
+    height: 100%;
+    visibility: hidden;
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    overflow-y: hidden;
+}
+
+@supports (-ms-ime-align: auto) {
+    .product-description-item {
+        /* EDGE CSS styles go here */
+        min-height: 0.0625rem;
+    }
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .product-description-item {
+        /* IE10+ CSS styles go here */
+        min-height: 0.0625rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-titles {
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+
+.product-titles-title {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.product-titles-subtitle {
+    display: block;
+    margin-top: 0.3125rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+}
+
+.product-titles-subtitle--couture {
+    color: #757575;
+}
+
+.product-titles-tags {
+    margin-bottom: 0.25rem;
+    font-size: 0.9375rem;
+}
+
+.product-titles-ref {
+    margin-top: 0.3125rem;
+    font-size: 0.8125rem;
+    line-height: 1.5rem;
+}
+
+@media screen and (min-width: 50rem) {
+    .product-titles {
+        text-align: left;
+        margin-bottom: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 50rem) {
+    .product-titles-title {
+        font-size: 1.3125rem;
+        line-height: 1.6875rem;
+    }
+    .product-titles-subtitle {
+        line-height: 1.25rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-medias-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: -0.625rem;
+}
+
+.product-medias-grid-image,
+.product-medias-grid-personalization {
+    width: 50%;
+    padding: 0 0.625rem 0.625rem 0.625rem;
+    box-sizing: border-box;
+}
+
+.product-medias-grid-image:first-child,
+.product-medias-grid-personalization:first-child {
+    width: 100%;
+}
+
+.product-medias-grid-image {
+    cursor: pointer;
+}
+
+.product-medias-grid-image button {
+    width: 100%;
+}
+
+.product-medias-grid .awards {
+    position: absolute;
+    top: 1.25rem;
+    left: 0.625rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.personalization-view {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 66.6667%;
+    overflow: hidden;
+    background-color: #efeff1;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .personalization-view {
+        padding-top: 108.11189%;
+    }
+}
+
+.personalization-view-loader,
+.personalization-view img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.personalization-view img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.awards .award {
+    margin-bottom: 0.625rem;
+}
+
+.awards .award img {
+    width: 3.125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-media {
+    position: relative;
+    width: 100%;
+}
+
+.product-media .play-icon {
+    border: 0.125rem solid #ffffff;
+    border-radius: 50%;
+    width: 3.75rem;
+    height: 3.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.product-media .play-icon svg {
+    width: 0.9375rem;
+    height: 0.9375rem;
+}
+
+.product-media__legend {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-medias-slider-single-image {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.product-medias-slider-single-image button {
+    width: 100%;
+}
+
+.product-medias-slider .slick-slide img {
+    width: 100%;
+}
+
+.product-medias-slider-awards,
+.product-medias-slider-single-image {
+    position: relative;
+}
+
+.product-medias-slider-awards .awards,
+.product-medias-slider-single-image .awards {
+    position: absolute;
+    top: 0.9375rem;
+    left: 0.9375rem;
+}
+
+.product-medias-slider-awards .awards img,
+.product-medias-slider-single-image .awards img {
+    width: 3.125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.top-content-desktop {
+    display: flex;
+    padding: 1.25rem 0;
+}
+
+.top-content-desktop-left {
+    width: 60%;
+}
+
+.top-content-desktop-right {
+    width: 34%;
+    margin-left: 6%;
+    z-index: 1;
+}
+
+.top-content-desktop-sticky {
+    padding: 1.25rem 0;
+    margin-top: -1.25rem;
+}
+
+.top-content-desktop-sticky.is-sticky {
+    margin-top: 0rem;
+    z-index: 1;
+}
+
+.top-content-desktop .product-description {
+    margin-top: 1.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-variations {
+    padding-top: 1.25rem;
+}
+
+@media screen and (min-width: 50rem) {
+    .product-variations {
+        border-top: 0.0625rem solid #e5e5e5;
+    }
+    .product-variations.is-capacity {
+        border-top: none;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.generic-variations {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .generic-variations {
+        justify-content: center;
+    }
+}
+
+.generic-variations .variation {
+    margin: 0.5rem;
+    box-sizing: border-box;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.swatch {
+    position: relative;
+    display: inline-flex;
+    border-radius: 50%;
+    border: 0.0625rem solid white;
+}
+
+.swatch.variation {
+    width: 2.625rem;
+    height: 2.625rem;
+    margin: 0.375rem;
+}
+
+.swatch.variation.disabled {
+    opacity: 0.2;
+    pointer-events: none;
+    cursor: auto;
+}
+
+.swatch.variation.disabled .image img {
+    width: 2.125rem;
+    height: 2.125rem;
+}
+
+.swatch .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.swatch img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 0.125rem solid white;
+    box-sizing: border-box;
+}
+
+.swatch input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.swatch.is-selected {
+    border-color: black;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.image-comparator {
+    position: relative;
+    width: 11.875rem;
+    height: 10.9375rem;
+    box-sizing: border-box;
+}
+
+.image-comparator-text {
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    top: 75%;
+    z-index: 2;
+    font-size: 1.625rem;
+}
+
+.image-comparator-text-left {
+    left: 8%;
+}
+
+.image-comparator-text-right {
+    right: 8%;
+}
+
+.image-comparator-img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.image-comparator-img img {
+    display: block !important;
+    box-sizing: border-box;
+    max-width: none !important;
+}
+
+.image-comparator-img.image-comparator-overlay {
+    border-right: 0.0625rem white solid;
+}
+
+.image-comparator-img.no-right-image img {
+    margin: -0.125rem;
+    display: none !important;
+}
+
+.image-comparator-slider--transparent-thumb::-webkit-slider-thumb {
+    width: 3.125rem !important;
+    height: 3.125rem !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 15'%3E %3Cpath fill='%23CECECE' d='M8,1.2L1.6,7.5L8,13.8l-0.8,0.8L0,7.5l7.1-7.1l0.4,0.4L8,1.2z M40.8,0.4L40,1.2l6.3,6.3L40,13.8l0.5,0.4l0.4,0.4L48,7.5L40.8,0.4z'/%3E %3C/svg%3E") !important;
+}
+
+.image-comparator-slider--transparent-thumb::-ms-thumb {
+    width: 3.125rem !important;
+    height: 3.125rem !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 15' fill='grey'%3E %3Cpath fill='%23CECECE' d='M8,1.2L1.6,7.5L8,13.8l-0.8,0.8L0,7.5l7.1-7.1l0.4,0.4L8,1.2z M40.8,0.4L40,1.2l6.3,6.3L40,13.8l0.5,0.4l0.4,0.4L48,7.5L40.8,0.4z'/%3E %3C/svg%3E") !important;
+}
+
+.image-comparator-slider {
+    width: 13.75rem;
+    left: -1.0625rem;
+    padding: 0 !important;
+    top: 100%;
+    background-color: transparent;
+}
+
+.image-comparator-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    width: 1.875rem;
+    height: 1.875rem;
+    border: 0;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 30 30' style='enable-background:new 0 0 30 30;' xml:space='preserve'%3E %3Cpath d='M15,0C6.7,0,0,6.7,0,15c0,8.3,6.7,15,15,15s15-6.7,15-15C30,6.7,23.3,0,15,0z M15,29C7.3,29,1,22.7,1,15C1,7.3,7.3,1,15,1 s14,6.3,14,14C29,22.7,22.7,29,15,29z M18.6,10.7l4.3,4.3l-4.3,4.3l-0.5-0.5l3.7-3.7l-3.7-3.7L18.6,10.7z M11.9,11.3L8.2,15l3.7,3.7 l-0.5,0.5L7.1,15l4.3-4.3L11.9,11.3z'/%3E %3C/svg%3E");
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-color: transparent !important;
+}
+
+.image-comparator-slider::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    top: -10.9375rem;
+    padding-top: 10.9375rem;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-color: transparent !important;
+}
+
+.image-comparator-slider:disabled::-webkit-slider-thumb {
+    cursor: default !important;
+}
+
+.image-comparator-slider:disabled::-ms-thumb {
+    cursor: default !important;
+}
+
+.image-comparator-slider::-ms-track {
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border-color: transparent;
+    border-width: 6px 0;
+    color: transparent;
+}
+
+.image-comparator-slider::-ms-thumb {
+    border: none;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    background: transparent;
+    width: 1.875rem;
+    height: 1.875rem;
+    border: 0;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 30 30' style='enable-background:new 0 0 30 30;' xml:space='preserve' fill='black'%3E %3Cpath d='M15,0C6.7,0,0,6.7,0,15c0,8.3,6.7,15,15,15s15-6.7,15-15C30,6.7,23.3,0,15,0z M15,29C7.3,29,1,22.7,1,15C1,7.3,7.3,1,15,1 s14,6.3,14,14C29,22.7,22.7,29,15,29z M18.6,10.7l4.3,4.3l-4.3,4.3l-0.5-0.5l3.7-3.7l-3.7-3.7L18.6,10.7z M11.9,11.3L8.2,15l3.7,3.7 l-0.5,0.5L7.1,15l4.3-4.3L11.9,11.3z'/%3E %3C/svg%3E");
+}
+
+.image-comparator-slider::-ms-fill-lower {
+    background: transparent;
+}
+
+.image-comparator-slider::-ms-fill-upper {
+    background: transparent;
+}
+
+.image-comparator-slider:focus::-ms-fill-upper {
+    background: transparent;
+}
+
+.image-comparator-slider:focus::-ms-fill-upper {
+    background: transparent;
+}
+
+.image-comparator-slider::-ms-tooltip {
+    display: none;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.swatches {
+    display: flex;
+    flex-direction: column;
+}
+
+.swatches .swatches-bloc {
+    margin-bottom: 1.875rem;
+    padding: 0.0625rem 0 0.0625rem;
+}
+
+.swatches .button-link.white {
+    width: 10.125rem;
+    max-width: 12.1875rem;
+    margin-bottom: 1.25rem;
+    align-self: center;
+}
+
+.swatches__actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.swatches__actions__try-link {
+    margin-left: 0.625rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.shade-finder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 61.25rem;
+}
+
+.shade-finder-title {
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.shade-finder-subtitle {
+    margin-bottom: 2.5rem;
+    font-size: 0.9375rem;
+    text-align: center;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.shade-finder-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.shade-finder-content-compare {
+    margin: 2rem 2.5rem;
+}
+
+.shade-finder-content-variations {
+    width: 100%;
+    max-width: 17.1875rem;
+}
+
+.shade-finder-content-choose-button {
+    z-index: 2;
+    width: 100%;
+}
+
+.shade-finder-content-empty-div {
+    height: 1.875rem;
+    padding: 1.25rem 0;
+}
+
+.shade-finder-content .variation-option-infos {
+    margin: 1.25rem 0;
+}
+
+.shade-finder-content .variation-option-infos-image {
+    margin-right: 1.25rem;
+}
+
+.shade-finder-content .variation-option-infos-image .image {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.variation-option-infos {
+    display: flex;
+    align-items: center;
+}
+
+.variation-option-infos-image {
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-right: 0.625rem;
+}
+
+.variation-option-infos-image img {
+    border-radius: 50%;
+}
+
+.variation-option-infos-titles {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9375rem;
+    text-align: left;
+}
+
+.variation-option-infos-titles--not-available {
+    text-decoration: line-through;
+}
+
+.variation-option-infos-subtitle {
+    color: #757575;
+    font-size: 0.8125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.shade-finder-swatches {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.9375rem;
+    padding-bottom: 0.9375rem;
+    border-bottom: 0.0625rem solid #e5e5e5;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .shade-finder-swatches {
+        max-height: 15.4375rem;
+        overflow: auto;
+        border-bottom: none;
+        margin-right: -0.125rem;
+    }
+    .shade-finder-swatches::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.shade-finder-content-mobile {
+    width: 100%;
+}
+
+.shade-finder-content-mobile-middle {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shade-finder-content-mobile-compare {
+    width: 10.9375rem;
+}
+
+.shade-finder-content-mobile-variations {
+    width: 2.5rem;
+}
+
+.shade-finder-content-mobile-choose-button {
+    z-index: 2;
+    width: 100%;
+}
+
+.shade-finder-content-mobile-empty-div {
+    height: 2.8125rem;
+    padding: 1.25rem 0;
+}
+
+.shade-finder-content-mobile-choose-button {
+    margin-top: auto;
+}
+
+.shade-finder-content-mobile-bottom {
+    display: flex;
+    margin-top: 2.5rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.shade-finder-content-mobile-bottom-box {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+}
+
+.shade-finder-content-mobile-bottom-box button {
+    margin-top: auto;
+}
+
+.shade-finder-content-mobile-bottom .variation-option-infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.shade-finder-content-mobile-bottom .variation-option-infos-image {
+    margin-right: 0 !important;
+    margin-bottom: 0.625rem;
+}
+
+.shade-finder-content-mobile-bottom .variation-option-infos-image .image {
+    width: 100%;
+    height: 100%;
+}
+
+.shade-finder-content-mobile-bottom .variation-option-infos-titles {
+    height: 3.125rem;
+    margin-bottom: 0.3125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.swatches-bloc {
+    display: flex;
+    align-items: flex-start;
+}
+
+.swatches-bloc__family {
+    margin-top: 1.25rem;
+    width: 5rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.swatches-bloc .placeholder {
+    width: 2.625rem;
+    margin: 0 0.375rem;
+    box-sizing: border-box;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.button-tabs-multiple {
+    width: 100%;
+    display: flex;
+}
+
+.button-tabs-multiple__tabs {
+    display: flex;
+    width: 100%;
+    margin-top: 0.3125rem;
+    flex-wrap: wrap;
+}
+
+.button-tabs-multiple__item {
+    position: relative;
+    margin: 0 0.3125rem 0.625rem;
+}
+
+.button-tabs-multiple__item__label {
+    flex: 0 0 auto;
+    font-size: 0.9375rem;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 0.0625rem solid #000000;
+    border-radius: 1.25rem;
+    height: 2.125rem;
+    padding: 0 1.25rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.button-tabs-multiple__item__label span::before,
+.button-tabs-multiple__item__label span::after {
+    display: block;
+    content: attr(data-title);
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.button-tabs-multiple__item__label span::before {
+    font-family: "Century Gothic Std Bold";
+}
+
+.button-tabs-multiple__item__label span::after {
+    font-family: "Century Gothic Std", Arial, sans-serif;
+}
+
+.button-tabs-multiple__item__label:hover span {
+    font-family: "Century Gothic Std Bold";
+}
+
+.button-tabs-multiple__item__label:hover span::after {
+    font-family: "Century Gothic Std", Arial, sans-serif;
+}
+
+.button-tabs-multiple__item__input {
+    position: absolute;
+    opacity: 0;
+}
+
+.button-tabs-multiple__item__input:disabled+.button-tabs-multiple__item__label {
+    color: #757575;
+    border: 0.0625rem solid #757575;
+    pointer-events: none;
+    cursor: auto;
+}
+
+.button-tabs-multiple__item__input:disabled+.button-tabs-multiple__item__label:hover span {
+    font-family: inherit;
+}
+
+.button-tabs-multiple__item__input:checked+.button-tabs-multiple__item__label {
+    color: black;
+    border: 0.125rem solid black;
+    padding: 0 1.1875rem;
+}
+
+.button-tabs-multiple__item__input:checked+.button-tabs-multiple__item__label span {
+    font-family: "Century Gothic Std Bold";
+}
+
+.button-tabs-multiple__item__input.focus-visible:focus+.button-tabs-multiple__item__label {
+    outline: 0.3125rem auto #3b99fc;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .button-tabs-multiple {
+        justify-content: center;
+        overflow-y: visible;
+    }
+    .button-tabs-multiple__tabs {
+        display: flex;
+        width: 100%;
+        flex-wrap: nowrap;
+        padding-bottom: 0.9375rem;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        -ms-overflow-style: none;
+        overflow: -moz-scrollbars-none;
+    }
+    .button-tabs-multiple__tabs::-webkit-scrollbar {
+        display: none;
+    }
+    .button-tabs-multiple__item__label {
+        margin: 0 0.1875rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.variation-option {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0.5625rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid #757575;
+    box-sizing: border-box;
+}
+
+.variation-option-price {
+    font-family: "Century Gothic Std Bold";
+}
+
+.variation-option-icon-selected {
+    position: absolute;
+    right: 0.5625rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.variation-option-icon-selected svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.variation-option.is-selected {
+    padding-right: 3.125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.variation-select {
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+}
+
+.variation-select .variation-option {
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid #757575;
+    padding-right: 3.125rem;
+    padding-left: 1rem;
+    min-height: 4.375rem;
+}
+
+.variation-select .variation-option-price {
+    font-family: "Century Gothic Std Bold";
+}
+
+.variation-select .variation-option-icon-selected {
+    right: 1rem;
+}
+
+.variation-select .variation-selected .icon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    height: 1rem;
+}
+
+.variation-select .variation-selected .icon svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.variation-select.custom-select-hzn.is-open .variation-option {
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+
+.variation-select.custom-select-hzn.is-open .variation-selected .icon {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.variation-select .custom-select-hzn-options {
+    top: 100%;
+    max-height: 31.25rem;
+    overflow-y: auto;
+    box-sizing: border-box;
+    border-bottom: 0.0625rem solid #757575;
+    border-left: 0.0625rem solid #757575;
+    border-right: 0.0625rem solid #757575;
+    border-bottom-left-radius: 0.3125rem;
+    border-bottom-right-radius: 0.3125rem;
+}
+
+.variation-select .custom-select-hzn-option .variation-option {
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    min-height: 3.75rem;
+}
+
+.variation-select .custom-select-hzn-option:hover {
+    background-color: #f6f6f6;
+    font-weight: bold;
+}
+
+.variation-select .custom-select-hzn-option:focus.focus-visible {
+    outline-offset: -0.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.variation-select-native {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.variation-select-native .variation-option {
+    width: 100%;
+    padding-right: 3.125rem;
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid #757575;
+    box-sizing: border-box;
+}
+
+.variation-select-native .variation-option-price {
+    font-family: "Century Gothic Std Bold";
+}
+
+.variation-select-native>select {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    font-size: 1rem !important;
+}
+
+.variation-select-native .icon {
+    position: absolute;
+    right: 0.5625rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+}
+
+.variation-select-native .icon svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.top-content-mobile--beauty .product-rating-resume-button {
+    margin-top: 1.25rem;
+    margin-left: 0;
+    width: 100%;
+}
+
+.top-content-mobile--beauty .product-rating-resume-button .product-rating-resume {
+    margin-bottom: 1.25rem;
+}
+
+.top-content-mobile--beauty .product-medias-slider {
+    margin-bottom: 0.625rem;
+}
+
+.top-content-mobile--beauty .product-page-engraving {
+    margin-top: 1.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.top-content-mobile .product-titles {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.top-content-mobile-with-margins>* {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.top-content-mobile .product-description {
+    margin-top: 1.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.top-content-desktop--couture .product-description,
+.top-content-desktop--couture .long-tail-information {
+    margin-top: 1.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.declinations {
+    border-top: 0.0625rem solid #e5e5e5;
+    margin-top: 2.75rem;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.6875rem 0 1rem 0.5625rem;
+}
+
+.declinations-title {
+    margin: 0.6875rem 0 1.375rem;
+}
+
+.declinations-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.declinations-items .declination {
+    width: 50%;
+    padding: 0 0.625rem 0.625rem 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .declinations {
+        padding: 1rem 0 0;
+    }
+    .declinations-title {
+        text-align: center;
+    }
+}
+
+.declinations-slider .slider {
+    padding-bottom: 0;
+}
+
+.declinations-slider .slick-slider.slick-initialized {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.declinations-slider .declination {
+    display: block;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.long-tail-information {
+    text-align: center;
+    font-size: 0.9375rem;
+}
+
+.long-tail-information-button {
+    display: flex;
+    margin: 0 auto;
+}
+
+.long-tail-information svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.long-tail-information-title {
+    margin-bottom: 0.625rem;
+    margin-right: 0.375rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.long-tail-information {
+    text-align: center;
+}
+
+.long-tail-information svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.long-tail-information-title {
+    margin-bottom: 1rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.personalization {
+    box-sizing: border-box;
+}
+
+.personalization-title {
+    border-bottom: 0.0625rem solid #e5e5e5;
+    line-height: 1.5rem;
+    padding: 0.8125rem 0 0.6875rem 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.personalization-variations {
+    border-bottom: 0.0625rem solid #e5e5e5;
+}
+
+.personalization-variations .generic-variations-slider {
+    margin: 1.1875rem 1.25rem 1.8125rem;
+}
+
+.personalization-variations .generic-variations-slider .personalization-item {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .personalization-title {
+        text-align: center;
+    }
+    .personalization-title span {
+        width: 100%;
+    }
+    .personalization-variations .arrow-icon--left {
+        left: -1.375rem;
+    }
+    .personalization-variations .arrow-icon--right {
+        right: -1.375rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.personalization-items {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.125rem 0 1.625rem;
+}
+
+.personalization-items-generic-variations {
+    justify-content: center;
+}
+
+.personalization-items-generic-variations .personalization-item {
+    margin: 0 0.4375rem 0.3125rem 0.375rem;
+}
+
+.personalization-items-generic-variations-placeholder {
+    width: 3.75rem;
+    margin: 0 0.4375rem 0 0.375rem;
+    box-sizing: border-box;
+}
+
+.personalization-items--closed .personalization-items-generic-variations {
+    max-height: 8.125rem;
+    overflow: hidden;
+}
+
+.personalization-items-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.personalization-items-button:focus.focus-visible {
+    outline-offset: -0.25rem;
+}
+
+.personalization-items-button-description {
+    line-height: 1.5rem;
+    font-size: 0.9375rem;
+}
+
+.personalization-items-button .up-down-chevron-icon {
+    margin-left: 0.3125rem;
+}
+
+.personalization-items-button .up-down-chevron-icon svg {
+    height: 0.5rem;
+    width: 0.875rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.up-down-chevron-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.up-down-chevron-icon svg {
+    width: 1.25rem;
+    overflow: visible;
+}
+
+.up-down-chevron-icon--is-open>svg {
+    transform: rotate(180deg);
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.personalization-item {
+    height: 3.75rem;
+    width: 3.75rem;
+}
+
+.personalization-item-btn {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3125rem;
+    overflow: hidden;
+}
+
+.personalization-item-btn-img {
+    border-radius: 50%;
+    background-position: center 120%;
+    background-size: 130% !important;
+}
+
+.personalization-item-btn:focus.focus-visible {
+    outline-offset: -0.3125rem;
+}
+
+.personalization-item--selected .personalization-item-btn {
+    border: 0.0625rem solid #000000;
+    border-radius: 50%;
+}
+
+.personalization-item--not-available {
+    opacity: 0.3;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.personalization-selection {
+    width: 100%;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.9375rem;
+    padding: 0.75rem 0.875rem;
+    box-sizing: border-box;
+    padding-bottom: 1.5625rem;
+}
+
+.personalization-selection-title {
+    font-family: "Century Gothic Std Bold";
+}
+
+.personalization-selection-slider {
+    width: 100%;
+    margin: 0.75rem 0 1.375rem;
+}
+
+.personalization-selection-slider .slick-slider {
+    padding: 0 0.625rem 0 0.625rem;
+}
+
+.personalization-selection-slider .slick-bottom {
+    margin-top: 0;
+}
+
+.personalization-selection-button {
+    text-decoration: underline;
+}
+
+.personalization-selection-button:hover {
+    font-weight: bold;
+}
+
+.personalization-selection .arrow-icon {
+    position: absolute;
+    top: 0.375rem;
+    z-index: 2;
+}
+
+.personalization-selection .arrow-icon--right {
+    right: -0.875rem;
+}
+
+.personalization-selection .arrow-icon--left {
+    left: -0.875rem;
+}
+
+.personalization-selection .arrow-icon.slick-disabled {
+    display: none;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .personalization-selection {
+        border-bottom: 0.0625rem solid #e5e5e5;
+    }
+    .personalization-selection .arrow-icon--right {
+        right: -0.625rem;
+    }
+    .personalization-selection .arrow-icon--left {
+        left: -0.625rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-selection-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-selection-item-placeholder {
+    height: 3.125rem;
+    width: 3.125rem;
+    margin: 0.25rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.0625rem dashed #cecece;
+    border-radius: 50%;
+    color: #cecece;
+    text-align: center;
+}
+
+.product-selection-item-placeholder--free {
+    border: 0.0625rem solid #cecece;
+}
+
+.product-selection-item>span {
+    display: inline-block;
+    width: 3.75rem;
+    margin: 0 auto;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-customization {
+    overflow: hidden;
+    margin-top: 1.875rem;
+}
+
+.product-customization .product-customization-content {
+    margin-top: 1.0625rem;
+    padding: 0;
+}
+
+@media screen and (max-width: 50rem) {
+    .product-customization .product-customization-content {
+        padding: 0 1.25rem;
+    }
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-customization-content__toggle {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.product-customization-content__title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.product-customization-content__title__value {
+    text-decoration: underline;
+    text-align: left;
+}
+
+.product-customization-content__description {
+    color: #000000;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    margin-top: 0.625rem;
+    text-align: left;
+}
+
+.product-customization-content__legend {
+    color: #757575;
+    font-size: 0.6875rem;
+    line-height: 1.5rem;
+    margin-top: 0.625rem;
+}
+
+.product-customization-content .product-customization-total {
+    margin-top: 1.125rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-customization-item-selector {
+    padding: 1.375rem 0;
+}
+
+.product-customization-item-selector .arrow-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.product-customization-item-selector .arrow-icon--right {
+    right: -0.625rem;
+}
+
+.product-customization-item-selector .arrow-icon--left {
+    left: -0.625rem;
+}
+
+.product-customization-item-selector .arrow-icon.slick-disabled {
+    display: none;
+}
+
+.product-customization-item-selector__sections {
+    display: flex;
+    position: relative;
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 0.0625rem solid #e5e5e5;
+}
+
+.product-customization-item-selector__sections .arrow-icon {
+    position: absolute;
+    top: 1.125rem;
+    z-index: 2;
+}
+
+.product-customization-item-selector__sections__arrow--disabled {
+    display: none;
+}
+
+.product-customization-item-selector__sections__slider {
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.product-customization-item-selector__sections__slider .slick-slider {
+    padding: 0 0.625rem;
+}
+
+.product-customization-item-selector__sections__slider .slick-bottom {
+    margin-top: 0;
+}
+
+.product-customization-item-selector__sections__slider__title-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.product-customization-item-selector__sections__slider__title-container__title {
+    padding: 0.625rem 1.25rem;
+}
+
+.product-customization-item-selector__sections__slider__title-container__title--active {
+    font-family: "Century Gothic Std Bold";
+    border-bottom: solid 0.125rem #000000;
+}
+
+.product-customization-item-selector__instructions {
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+    margin-top: 1.25rem;
+}
+
+.product-customization-item-selector__items {
+    display: flex;
+    position: relative;
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+}
+
+.product-customization-item-selector__items__slider {
+    display: flex;
+    flex: 1;
+    padding-top: 1.0625rem;
+    width: 100%;
+}
+
+.product-customization-item-selector__items__slider .slick-slider {
+    padding: 0 1.25rem;
+}
+
+.product-customization-item-selector__items__slider .slick-bottom {
+    margin-top: 0;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-customization-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-customization-item__price {
+    width: 100%;
+    margin-top: 0.4375rem;
+    font-size: 0.9375rem;
+    color: #000000;
+    font-family: "Century Gothic Std Bold";
+}
+
+.product-customization-item__price--not-available {
+    color: #757575;
+    font-family: "Century Gothic Std", Arial, sans-serif;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-customization-item-cover {
+    height: 5.3125rem;
+    width: 5.3125rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.1875rem solid transparent;
+}
+
+.product-customization-item-cover--not-available {
+    opacity: 0.5;
+}
+
+.product-customization-item-cover-container {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.125rem solid transparent;
+}
+
+.product-customization-item-cover-container--selected {
+    border: 0.125rem solid;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-customization-selected-items--open {
+    border-top: 0.0625rem solid #e5e5e5;
+}
+
+.product-customization-selected-items__slider {
+    width: 100%;
+    margin-top: 1.5625rem;
+}
+
+.product-customization-selected-items__slider .product-customization-item-cover,
+.product-customization-selected-items__slider .product-selection-item-placeholder {
+    width: 3.75rem;
+    height: 3.75rem;
+}
+
+.product-customization-selected-items__slider .product-selection-item {
+    margin: 0;
+}
+
+.product-customization-selected-items__slider .product-selection-item>span {
+    margin-top: 0.6875rem;
+    width: auto;
+    font-size: 0.9375rem;
+}
+
+.product-customization-selected-items__slider .slick-track {
+    margin-left: initial;
+    margin-right: initial;
+}
+
+.product-customization-selected-items__slider__first-placeholder {
+    border-style: solid;
+}
+
+.product-customization-selected-items .slick-slider {
+    margin: 0 1.25rem;
+}
+
+.product-customization-selected-items .slick-bottom {
+    margin-top: 0;
+}
+
+.product-customization-selected-items .arrow-icon {
+    position: absolute;
+    top: 0.75rem;
+    z-index: 2;
+}
+
+.product-customization-selected-items .arrow-icon--right {
+    right: -1.875rem;
+}
+
+.product-customization-selected-items .arrow-icon--left {
+    left: -1.875rem;
+}
+
+.product-customization-selected-items .arrow-icon.slick-disabled {
+    display: none;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-customization-total__title {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.product-customization-total__title__price-line {
+    font-size: 0.9375rem;
+    font-family: "Century Gothic Std Bold";
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.product-customization-total__title__reset {
+    font-size: 0.8125rem;
+    line-height: 1.5rem;
+    text-decoration: underline;
+}
+
+.product-customization-total__title__reset--disabled {
+    color: #cecece;
+}
+
+.product-customization-total__edit {
+    margin-top: 0.25rem;
+    font-size: 0.8125rem;
+    line-height: 1.125rem;
+    color: #757575;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.product-customization-preview {
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.product-customization-preview__header {
+    position: absolute;
+    top: 1.375rem;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.product-customization-preview__header__surtitle {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.product-customization-preview__header__surtitle .title-with-level {
+    width: auto;
+}
+
+.product-customization-preview__header__surtitle__decorator {
+    flex: 1;
+    width: 100%;
+    border-bottom: 0.0625rem solid #e5e5e5;
+}
+
+.product-customization-preview__header__surtitle__decorator--right {
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+
+.product-customization-preview__header__surtitle__decorator--left {
+    margin-right: 1rem;
+    margin-left: 2rem;
+}
+
+.product-customization-preview__header__title {
+    margin-top: 1.25rem;
+}
+
+.product-customization-preview__item {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.product-customization-preview__controls {
+    position: absolute;
+    bottom: 0.9375rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.product-customization-preview .slick-bottom {
+    margin-top: 0;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.expansion-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 0.9375rem 0;
+    box-sizing: border-box;
+    border-top: 0.0625rem solid #e5e5e5;
+    font-size: 0.9375rem;
+}
+
+.expansion-panel-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.expansion-panel>.icon {
+    margin-left: 0.625rem;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.expansion-panel-content {
+    margin-top: 1.25rem;
+}
+
+.expansion-panel-content.is-open {
+    display: block;
+}
+
+.expansion-panel-content.is-closed {
+    display: none;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.size-guide {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
+}
+
+@media screen and (min-width: 50rem) {
+    .size-guide {
+        width: 50rem;
+    }
+}
+
+.size-guide-title {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.size-guide__loader {
+    margin: 2.5rem auto;
+}
+
+.size-guide .margin {
+    margin: 0 5rem 2.5rem;
+    text-align: left;
+}
+
+.size-guide .margin.text-centered {
+    text-align: center;
+}
+
+.size-guide .margin-small {
+    margin: 0 2.5rem 2.5rem;
+    text-align: left;
+}
+
+.size-guide .margin-small.text-centered {
+    text-align: center;
+}
+
+.size-guide .margin-small p {
+    margin-bottom: 1rem;
+}
+
+.size-guide .step {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 0 1.25rem 5.625rem;
+}
+
+.size-guide .step .num {
+    font-size: 3.75rem;
+    color: #cecece;
+}
+
+.size-guide .step .label {
+    position: absolute;
+    top: 0;
+    left: 0.3125rem;
+    margin: 0;
+}
+
+.size-guide .grid {
+    margin-bottom: 3.75rem;
+    overflow: hidden;
+}
+
+.size-guide .grid h6 {
+    margin-left: 0;
+}
+
+.size-guide .grid .step {
+    margin-left: 0;
+}
+
+.size-guide .grid .column {
+    float: left;
+}
+
+.size-guide .grid .column.column-no-margin {
+    margin: 0;
+}
+
+.size-guide .one-half {
+    width: 50%;
+    padding: 0 0 0 1.25rem;
+    box-sizing: border-box;
+}
+
+.size-guide .one-half.column-no-margin {
+    padding: 0;
+}
+
+.size-guide .helper table p {
+    text-transform: none;
+}
+
+.size-guide .helper table img {
+    width: 12.5rem;
+    height: auto;
+}
+
+.size-guide hr {
+    display: block;
+    height: 0.0625rem;
+    border: 0;
+    border-top: 0.0625rem solid #e5e5e5;
+    margin: 0 -1.25rem 2.5rem;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .size-guide hr {
+        display: none;
+    }
+}
+
+.size-guide table {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 2.5rem 2.5rem;
+    border-collapse: collapse;
+}
+
+.size-guide table.cols-1 th,
+.size-guide table.cols-1 td {
+    width: Infinity/16rem;
+}
+
+.size-guide table.cols-1 th.margin,
+.size-guide table.cols-1 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-1 th.first,
+.size-guide table.cols-1 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-2 th,
+.size-guide table.cols-2 td {
+    width: 40.4375rem;
+}
+
+.size-guide table.cols-2 th.margin,
+.size-guide table.cols-2 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-2 th.first,
+.size-guide table.cols-2 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-3 th,
+.size-guide table.cols-3 td {
+    width: 20.21875rem;
+}
+
+.size-guide table.cols-3 th.margin,
+.size-guide table.cols-3 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-3 th.first,
+.size-guide table.cols-3 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-4 th,
+.size-guide table.cols-4 td {
+    width: 13.47917rem;
+}
+
+.size-guide table.cols-4 th.margin,
+.size-guide table.cols-4 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-4 th.first,
+.size-guide table.cols-4 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-5 th,
+.size-guide table.cols-5 td {
+    width: 10.10938rem;
+}
+
+.size-guide table.cols-5 th.margin,
+.size-guide table.cols-5 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-5 th.first,
+.size-guide table.cols-5 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-6 th,
+.size-guide table.cols-6 td {
+    width: 8.0875rem;
+}
+
+.size-guide table.cols-6 th.margin,
+.size-guide table.cols-6 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-6 th.first,
+.size-guide table.cols-6 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-7 th,
+.size-guide table.cols-7 td {
+    width: 6.73958rem;
+}
+
+.size-guide table.cols-7 th.margin,
+.size-guide table.cols-7 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-7 th.first,
+.size-guide table.cols-7 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-8 th,
+.size-guide table.cols-8 td {
+    width: 5.77679rem;
+}
+
+.size-guide table.cols-8 th.margin,
+.size-guide table.cols-8 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-8 th.first,
+.size-guide table.cols-8 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-9 th,
+.size-guide table.cols-9 td {
+    width: 5.05469rem;
+}
+
+.size-guide table.cols-9 th.margin,
+.size-guide table.cols-9 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-9 th.first,
+.size-guide table.cols-9 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-10 th,
+.size-guide table.cols-10 td {
+    width: 4.49306rem;
+}
+
+.size-guide table.cols-10 th.margin,
+.size-guide table.cols-10 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-10 th.first,
+.size-guide table.cols-10 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-11 th,
+.size-guide table.cols-11 td {
+    width: 4.04375rem;
+}
+
+.size-guide table.cols-11 th.margin,
+.size-guide table.cols-11 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-11 th.first,
+.size-guide table.cols-11 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-12 th,
+.size-guide table.cols-12 td {
+    width: 3.67614rem;
+}
+
+.size-guide table.cols-12 th.margin,
+.size-guide table.cols-12 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-12 th.first,
+.size-guide table.cols-12 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-13 th,
+.size-guide table.cols-13 td {
+    width: 3.36979rem;
+}
+
+.size-guide table.cols-13 th.margin,
+.size-guide table.cols-13 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-13 th.first,
+.size-guide table.cols-13 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-14 th,
+.size-guide table.cols-14 td {
+    width: 3.11058rem;
+}
+
+.size-guide table.cols-14 th.margin,
+.size-guide table.cols-14 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-14 th.first,
+.size-guide table.cols-14 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-15 th,
+.size-guide table.cols-15 td {
+    width: 2.88839rem;
+}
+
+.size-guide table.cols-15 th.margin,
+.size-guide table.cols-15 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-15 th.first,
+.size-guide table.cols-15 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-16 th,
+.size-guide table.cols-16 td {
+    width: 2.69583rem;
+}
+
+.size-guide table.cols-16 th.margin,
+.size-guide table.cols-16 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-16 th.first,
+.size-guide table.cols-16 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-17 th,
+.size-guide table.cols-17 td {
+    width: 2.52734rem;
+}
+
+.size-guide table.cols-17 th.margin,
+.size-guide table.cols-17 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-17 th.first,
+.size-guide table.cols-17 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-18 th,
+.size-guide table.cols-18 td {
+    width: 2.37868rem;
+}
+
+.size-guide table.cols-18 th.margin,
+.size-guide table.cols-18 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-18 th.first,
+.size-guide table.cols-18 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-19 th,
+.size-guide table.cols-19 td {
+    width: 2.24653rem;
+}
+
+.size-guide table.cols-19 th.margin,
+.size-guide table.cols-19 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-19 th.first,
+.size-guide table.cols-19 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-20 th,
+.size-guide table.cols-20 td {
+    width: 2.12829rem;
+}
+
+.size-guide table.cols-20 th.margin,
+.size-guide table.cols-20 td.margin {
+    width: 2.5rem;
+}
+
+.size-guide table.cols-20 th.first,
+.size-guide table.cols-20 td.first {
+    width: 8.3125rem;
+}
+
+.size-guide table.cols-1-with-title th,
+.size-guide table.cols-1-with-title td {
+    width: 39.375rem;
+}
+
+.size-guide table.cols-1-with-title th.title,
+.size-guide table.cols-1-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-2-with-title th,
+.size-guide table.cols-2-with-title td {
+    width: 19.6875rem;
+}
+
+.size-guide table.cols-2-with-title th.title,
+.size-guide table.cols-2-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-3-with-title th,
+.size-guide table.cols-3-with-title td {
+    width: 13.125rem;
+}
+
+.size-guide table.cols-3-with-title th.title,
+.size-guide table.cols-3-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-4-with-title th,
+.size-guide table.cols-4-with-title td {
+    width: 9.84375rem;
+}
+
+.size-guide table.cols-4-with-title th.title,
+.size-guide table.cols-4-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-5-with-title th,
+.size-guide table.cols-5-with-title td {
+    width: 7.875rem;
+}
+
+.size-guide table.cols-5-with-title th.title,
+.size-guide table.cols-5-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-6-with-title th,
+.size-guide table.cols-6-with-title td {
+    width: 6.5625rem;
+}
+
+.size-guide table.cols-6-with-title th.title,
+.size-guide table.cols-6-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-7-with-title th,
+.size-guide table.cols-7-with-title td {
+    width: 5.625rem;
+}
+
+.size-guide table.cols-7-with-title th.title,
+.size-guide table.cols-7-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-8-with-title th,
+.size-guide table.cols-8-with-title td {
+    width: 4.92188rem;
+}
+
+.size-guide table.cols-8-with-title th.title,
+.size-guide table.cols-8-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-9-with-title th,
+.size-guide table.cols-9-with-title td {
+    width: 4.375rem;
+}
+
+.size-guide table.cols-9-with-title th.title,
+.size-guide table.cols-9-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-10-with-title th,
+.size-guide table.cols-10-with-title td {
+    width: 3.9375rem;
+}
+
+.size-guide table.cols-10-with-title th.title,
+.size-guide table.cols-10-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-11-with-title th,
+.size-guide table.cols-11-with-title td {
+    width: 3.57955rem;
+}
+
+.size-guide table.cols-11-with-title th.title,
+.size-guide table.cols-11-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-12-with-title th,
+.size-guide table.cols-12-with-title td {
+    width: 3.28125rem;
+}
+
+.size-guide table.cols-12-with-title th.title,
+.size-guide table.cols-12-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-13-with-title th,
+.size-guide table.cols-13-with-title td {
+    width: 3.02885rem;
+}
+
+.size-guide table.cols-13-with-title th.title,
+.size-guide table.cols-13-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-14-with-title th,
+.size-guide table.cols-14-with-title td {
+    width: 2.8125rem;
+}
+
+.size-guide table.cols-14-with-title th.title,
+.size-guide table.cols-14-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-15-with-title th,
+.size-guide table.cols-15-with-title td {
+    width: 2.625rem;
+}
+
+.size-guide table.cols-15-with-title th.title,
+.size-guide table.cols-15-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-16-with-title th,
+.size-guide table.cols-16-with-title td {
+    width: 2.46094rem;
+}
+
+.size-guide table.cols-16-with-title th.title,
+.size-guide table.cols-16-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-17-with-title th,
+.size-guide table.cols-17-with-title td {
+    width: 2.31618rem;
+}
+
+.size-guide table.cols-17-with-title th.title,
+.size-guide table.cols-17-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-18-with-title th,
+.size-guide table.cols-18-with-title td {
+    width: 2.1875rem;
+}
+
+.size-guide table.cols-18-with-title th.title,
+.size-guide table.cols-18-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-19-with-title th,
+.size-guide table.cols-19-with-title td {
+    width: 2.07237rem;
+}
+
+.size-guide table.cols-19-with-title th.title,
+.size-guide table.cols-19-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table.cols-20-with-title th,
+.size-guide table.cols-20-with-title td {
+    width: 1.96875rem;
+}
+
+.size-guide table.cols-20-with-title th.title,
+.size-guide table.cols-20-with-title td.title {
+    width: 6.25rem;
+}
+
+.size-guide table thead {
+    font-size: 0.8125rem;
+}
+
+.size-guide table th {
+    background: #000;
+    color: #fff;
+}
+
+.size-guide table th.title {
+    text-transform: uppercase;
+}
+
+.size-guide table th.border-before {
+    position: relative;
+}
+
+.size-guide table th.border-before:before {
+    content: '';
+    width: 0.0625rem;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    height: 1.25rem;
+    bottom: 0.9375rem;
+}
+
+.size-guide table tbody {
+    font-size: 0.8125rem;
+}
+
+.size-guide table tr {
+    height: 3.125rem;
+}
+
+.size-guide table tr.grey td {
+    background: #f6f6f6;
+}
+
+.size-guide table tr.grey td.first.bold,
+.size-guide table tr.grey td.first.title-with-level.bold {
+    font-family: "Century Gothic Std Bold";
+}
+
+.size-guide table tr td.title {
+    background: none;
+    color: #000;
+    text-transform: none;
+}
+
+.size-guide table th,
+.size-guide table td {
+    vertical-align: middle;
+}
+
+.size-guide table th.border,
+.size-guide table td.border {
+    border-right: 0.125rem solid #fff;
+}
+
+.size-guide table th.title,
+.size-guide table td.title {
+    background: none;
+    color: #000;
+    text-align: left;
+}
+
+.lte7 .size-guide table .colspan {
+    width: auto;
+}
+
+.size-guide table.active {
+    display: inline-table;
+}
+
+.size-guide .info-size {
+    font-size: 0.8125rem;
+    font-style: italic;
+    margin-left: 2.5rem;
+    margin-bottom: 1.25rem;
+    display: block;
+}
+
+.size-guide .tab-content th,
+.size-guide .tab-content h4,
+.size-guide .tab-content h5,
+.size-guide .tab-content h6 {
+    font-weight: normal;
+}
+
+.size-guide .tab-content h4 {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    margin: 0 2.5rem 1.875rem;
+    text-align: center;
+}
+
+.size-guide .tab-content h5 {
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    margin: 0 2.5rem 1.25rem;
+    text-align: left;
+}
+
+.size-guide .tab-content h6 {
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: left;
+}
+
+.size-guide .tab-content p {
+    margin-bottom: 2.375rem;
+}
+
+.size-guide .tab-content p.framed {
+    text-align: center;
+    border: 0.0625rem solid #000;
+    padding: 2.1875rem;
+    margin-bottom: 1.5625rem;
+}
+
+.size-guide .tab-content p.framed a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.size-guide .tab-content p.margin-small {
+    text-align: left;
+}
+
+.size-guide .tab-content img {
+    width: 100%;
+    height: auto;
+}
+
+.size-guide .tab-content a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.size-guide .tab-content a.btn-black,
+.size-guide .tab-content a.btn-dark {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    height: 2.5rem;
+    border-radius: 2.5rem;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .size-guide .size-guide--footer {
+        display: flex;
+        flex-direction: column;
+        border: 0.0625rem solid #000;
+        border-radius: 0.3125rem;
+        padding: 1.25rem;
+        margin-top: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 50rem) {
+    .size-guide .size-guide--footer div {
+        width: 50%;
+        float: left;
+    }
+}
+
+.size-guide .size-guide--footer img {
+    width: auto;
+    margin-right: 0.625rem;
+    float: left;
+}
+
+.size-guide .size-guide--footer p {
+    text-align: left;
+    clear: both;
+    margin-bottom: 1.25rem;
+}
+
+.size-guide .size-guide--footer h5 {
+    margin: 0.125rem 0 1.625rem;
+}
+
+.size-guide #table-long,
+.size-guide .grid-hidden {
+    display: none;
+}
+
+@media screen and (max-width: 49.9375rem) {
+    .size-guide .margin-bottom-20 {
+        margin-bottom: 1.25rem;
+    }
+    .size-guide table {
+        margin: 0;
+        border-spacing: 0.3125rem 0;
+        border-collapse: separate;
+    }
+    .size-guide table .size-grid-black {
+        background-color: #000;
+        color: #fff;
+    }
+    .size-guide table .size-grid-white {
+        background-color: #fff;
+    }
+    .size-guide table tbody td {
+        padding: 0.9375rem 0;
+        background: #e5e5e5;
+    }
+    .size-guide table .border-top td {
+        border-top: 0.0625rem solid white;
+    }
+    .size-guide .sizes-ring .js-accordion {
+        margin-bottom: 1.25rem;
+    }
+}
+
+.size-guide .sizes-heel,
+.size-guide .sizes-measuring,
+.size-guide .sizes-how-to {
+    display: flex;
+    flex-direction: column;
+}
+
+.size-guide .sizes-heel>img,
+.size-guide .sizes-measuring>img,
+.size-guide .sizes-how-to>img {
+    margin: 1.25rem auto;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.sizes {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9375rem;
+}
+
+.sizes-italian-text {
+    margin-bottom: 1.125rem;
+}
+
+.sizes-chart-size-button {
+    margin-top: 0.5625rem;
+    text-decoration: underline;
+}
+
+.sizes .slider {
+    padding-bottom: 0;
+}
+
+.sizes-selected-size .icon {
+    margin-left: 0.3125rem;
+}
+
+.sizes-selected-size .icon svg {
+    width: 0.8125rem;
+    height: 0.5625rem;
+}
+
+.sizes-selected-size:not(.is-available) {
+    text-decoration: line-through;
+}
+
+.sizes-expansion-panel {
+    border-bottom: 0.0625rem solid #e5e5e5;
+    padding: 1.5625rem 0.3125rem 1.5625rem 0.3125rem !important;
+}
+
+.sizes-expansion-panel-button {
+    height: 1.25rem;
+}
+
+.sizes-expansion-panel-button>span {
+    display: inline-flex;
+}
+
+.sizes-expansion-panel-button .size {
+    margin-left: 0.625rem;
+    width: auto;
+    height: auto;
+}
+
+.sizes-expansion-panel .sizes {
+    text-align: left;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.sizes-separator {
+    padding-bottom: 1.25rem;
+}
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+
+/*
+   * Return the rem of a pixel's value
+   *
+   * Sample: pxToRem(50)
+   * Result: 3.125rem
+   */
+
+
+/*
+   * Return the percent ratio from width and height
+   *
+   * Sample: ratio(16, 9)
+   * Result: 56.25%
+   */
+
+.top-content-mobile--couture .product-titles {
+    text-align: left;
+}
+
+.top-content-mobile--couture .product-medias-slider {
+    margin-bottom: 0.625rem;
+}
+
+.top-content-mobile--couture .product-description,
+.top-content-mobile--couture .long-tail-information {
+    margin-top: 1.25rem;
+}
+
+.top-content-mobile--couture .sizes {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 0.0625rem solid #e5e5e5;
+    margin-bottom: 1.25rem;
+}

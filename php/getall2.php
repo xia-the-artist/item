@@ -3,6 +3,8 @@
 
     $sql = "select * from shopping";
 
+   
+
 
     $res = $mysqli->query($sql);
 
